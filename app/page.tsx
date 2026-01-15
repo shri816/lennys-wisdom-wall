@@ -5,43 +5,11 @@ import data from './categorized-data.json';
 
 export default function WisdomWall() {
   const [selectedConcept, setSelectedConcept] = useState<any>(null);
-  const [showGuestSummary, setShowGuestSummary] = useState(false);
-  const [guestSummary, setGuestSummary] = useState<string>('');
-  const [loadingSummary, setLoadingSummary] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  useEffect(() => {
-    setShowGuestSummary(false);
-    setGuestSummary('');
-  }, [selectedConcept]);
-
-  const handleSummaryClick = async () => {
-    if (showGuestSummary) {
-      setShowGuestSummary(false);
-      return;
-    }
-
-    setShowGuestSummary(true);
-    if (guestSummary) return; // Already loaded
-
-    setLoadingSummary(true);
-    try {
-      const response = await fetch('/api/summarize', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ guestName: selectedConcept.guestQuoted })
-      });
-      const data = await response.json();
-      setGuestSummary(data.summary);
-    } catch (error) {
-      setGuestSummary('Failed to load summary. Please try again.');
-    }
-    setLoadingSummary(false);
-  };
 
   if (!mounted) {
     return (
@@ -166,53 +134,6 @@ export default function WisdomWall() {
                           — {selectedConcept.guestQuoted}
                         </p>
                       </div>
-                    </div>
-
-                    {/* Guest Conversation Summary */}
-                    <div>
-                      <h3
-                        className="font-bold text-sm uppercase tracking-wide mb-4"
-                        style={{ color: category?.color }}
-                      >
-                        📝 Full Episode Summary
-                      </h3>
-                      <button
-                        onClick={handleSummaryClick}
-                        className="w-full px-6 py-4 bg-white border-2 border-gray-200 hover:border-[#FF6B35] rounded-xl text-left transition-all group"
-                      >
-                        <div className="flex items-center justify-between">
-                          <div>
-                            <p className="font-semibold text-gray-900 group-hover:text-[#FF6B35] transition-colors">
-                              Summarize all key insights from conversation with {selectedConcept.guestQuoted}
-                            </p>
-                            <p className="text-sm text-gray-500 mt-1">
-                              Click to view full episode summary and all insights
-                            </p>
-                          </div>
-                          <svg
-                            className={`w-5 h-5 text-gray-400 transition-transform ${showGuestSummary ? 'rotate-180' : ''}`}
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                          </svg>
-                        </div>
-                      </button>
-                      {showGuestSummary && (
-                        <div className="mt-4 p-6 bg-gray-50 rounded-xl border-2 border-gray-200">
-                          {loadingSummary ? (
-                            <div className="flex items-center justify-center py-8">
-                              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#FF6B35]"></div>
-                              <p className="ml-3 text-gray-600">Loading summary...</p>
-                            </div>
-                          ) : (
-                            <div className="text-gray-700 leading-relaxed whitespace-pre-line text-sm">
-                              {guestSummary}
-                            </div>
-                          )}
-                        </div>
-                      )}
                     </div>
 
                     {/* Guests */}
