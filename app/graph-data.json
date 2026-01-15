@@ -1,0 +1,581 @@
+{
+  "nodes": [
+    {
+      "id": "pmf",
+      "label": "Product-Market Fit",
+      "size": 45,
+      "guests": ["Elena Verna", "Gokul Rajaram", "Brian Chesky"],
+      "quotes": [
+        {
+          "text": "PMF is insufficient—you need product-market-channel fit. 40-50% of customers should come organically",
+          "guest": "Gokul Rajaram"
+        },
+        {
+          "text": "You need solid PMF before you even think about a growth team",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "label": "Retention",
+      "size": 38,
+      "guests": ["Elena Verna", "Casey Winters", "Gibson Biddle"],
+      "quotes": [
+        {
+          "text": "Focus on retention before growth. Don't hire a growth team until you have strong retention",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "growth-teams",
+      "label": "Growth Teams",
+      "size": 42,
+      "guests": ["Elena Verna", "Casey Winters"],
+      "quotes": [
+        {
+          "text": "There is a huge misconception that you need a growth team to get growth going. Founder-led growth is essential first",
+          "guest": "Elena Verna"
+        },
+        {
+          "text": "The longer you wait to hire growth, the better—your entire company will be trained to be responsible for growth",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "jtbd",
+      "label": "Jobs to Be Done",
+      "size": 50,
+      "guests": ["Bob Moesta"],
+      "quotes": [
+        {
+          "text": "It's context and outcome, not pain and gain. The context makes the irrational rational",
+          "guest": "Bob Moesta"
+        },
+        {
+          "text": "People don't buy products, they hire them to make progress in their life",
+          "guest": "Bob Moesta"
+        }
+      ]
+    },
+    {
+      "id": "context-outcome",
+      "label": "Context + Outcome",
+      "size": 35,
+      "guests": ["Bob Moesta"],
+      "quotes": [
+        {
+          "text": "It's not just about pain and gain, it's about context and outcomes. Value is where you start and where you want to go",
+          "guest": "Bob Moesta"
+        }
+      ]
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy",
+      "size": 47,
+      "guests": ["Shreyas Doshi", "Roger Martin", "Gibson Biddle"],
+      "quotes": [
+        {
+          "text": "Most execution problems are really strategy problems. When teams can't align, it's unclear strategy, not poor execution",
+          "guest": "Shreyas Doshi"
+        },
+        {
+          "text": "Strategy must come before goals and roadmaps",
+          "guest": "Ravi Mehta"
+        }
+      ]
+    },
+    {
+      "id": "execution",
+      "label": "Execution",
+      "size": 40,
+      "guests": ["Shreyas Doshi", "Stewart Butterfield"],
+      "quotes": [
+        {
+          "text": "If you're constantly firefighting the same execution problems, stop trying to execute better—fix the strategy first",
+          "guest": "Shreyas Doshi"
+        }
+      ]
+    },
+    {
+      "id": "pre-mortems",
+      "label": "Pre-Mortems",
+      "size": 30,
+      "guests": ["Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "If you do a pre-mortem right, you will not have to do an ugly post-mortem. Imagine this project has failed—what went wrong?",
+          "guest": "Shreyas Doshi"
+        }
+      ]
+    },
+    {
+      "id": "lno-framework",
+      "label": "LNO Framework",
+      "size": 28,
+      "guests": ["Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "Leverage tasks return 10-100x, Neutral tasks return 1x, Overhead tasks return less than you put in. Not all tasks are created equal",
+          "guest": "Shreyas Doshi"
+        }
+      ]
+    },
+    {
+      "id": "rebrands",
+      "label": "Rebrands & Redesigns",
+      "size": 32,
+      "guests": ["Elena Verna"],
+      "quotes": [
+        {
+          "text": "Never once have I seen a rebrand or homepage redesign produce good performance results. It's always a step back that takes 3-6 months to recover",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "label": "User Research",
+      "size": 36,
+      "guests": ["Bob Moesta", "Casey Winters", "Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "The fastest way to learn is often to ship, not to do extensive research",
+          "guest": "Casey Winters"
+        },
+        {
+          "text": "Never ask what people want; study what they did. Customers will lie about what they want",
+          "guest": "Bob Moesta"
+        }
+      ]
+    },
+    {
+      "id": "experimentation",
+      "label": "Experimentation",
+      "size": 34,
+      "guests": ["Elena Verna", "Annie Duke"],
+      "quotes": [
+        {
+          "text": "If every single initiative is an experiment, that's a problem. It's a paralyzing disease",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "decision-making",
+      "label": "Decision Making",
+      "size": 39,
+      "guests": ["Annie Duke", "Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "The best product decisions happen when people stop talking to each other. Group discussions create conformity",
+          "guest": "Annie Duke"
+        },
+        {
+          "text": "Have people submit judgment independently before meetings, then discuss disagreements",
+          "guest": "Annie Duke"
+        }
+      ]
+    },
+    {
+      "id": "opportunity-cost",
+      "label": "Opportunity Cost",
+      "size": 33,
+      "guests": ["Casey Winters"],
+      "quotes": [
+        {
+          "text": "Optimize for opportunity cost, not ROI. Ask 'Is this the BEST use of our time?' not 'Is this a GOOD use of our time?'",
+          "guest": "Casey Winters"
+        }
+      ]
+    },
+    {
+      "id": "feedback-loops",
+      "label": "Feedback Loops",
+      "size": 27,
+      "guests": ["Annie Duke"],
+      "quotes": [
+        {
+          "text": "You don't have long feedback loops—you're choosing not to shorten them. You can always identify leading indicators",
+          "guest": "Annie Duke"
+        }
+      ]
+    },
+    {
+      "id": "hiring",
+      "label": "Hiring",
+      "size": 37,
+      "guests": ["Elena Verna", "Casey Winters", "Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "Hiring too soon for growth is one of the biggest mistakes. Founders must figure out growth first",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "founder-led-growth",
+      "label": "Founder-Led Growth",
+      "size": 31,
+      "guests": ["Elena Verna"],
+      "quotes": [
+        {
+          "text": "Founder-led growth is not popularized enough. You don't need growth teams until $1-5M ARR minimum",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "zirp-pm",
+      "label": "Zero Interest Rate PM",
+      "size": 29,
+      "guests": ["Casey Winters"],
+      "quotes": [
+        {
+          "text": "Every new PM acts like they work at Google with infinite resources. They focus on the right way vs taking risk",
+          "guest": "Casey Winters"
+        },
+        {
+          "text": "Ship to learn. The fastest way to learn is often to ship, not do extensive research",
+          "guest": "Casey Winters"
+        }
+      ]
+    },
+    {
+      "id": "positioning",
+      "label": "Positioning",
+      "size": 41,
+      "guests": ["April Dunford", "Gibson Biddle"],
+      "quotes": [
+        {
+          "text": "Positioning defines how you win. It's not marketing fluff—it's defining how your product is best in the world at delivering value",
+          "guest": "April Dunford"
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "label": "Growth Channels",
+      "size": 35,
+      "guests": ["Gokul Rajaram", "Elena Verna", "Brian Chesky"],
+      "quotes": [
+        {
+          "text": "40-50% of customers should come organically. If 90% come from paid channels, the music eventually stops",
+          "guest": "Gokul Rajaram"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "label": "Pricing",
+      "size": 32,
+      "guests": ["Patrick Campbell", "April Dunford"],
+      "quotes": [
+        {
+          "text": "Pricing is a reflection of value. Get positioning right first, then pricing becomes clearer",
+          "guest": "April Dunford"
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "label": "Metrics & KPIs",
+      "size": 38,
+      "guests": ["Casey Winters", "Elena Verna", "Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "My north star metric is insights per minute",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "customer-interviews",
+      "label": "Customer Interviews",
+      "size": 36,
+      "guests": ["Bob Moesta", "April Dunford"],
+      "quotes": [
+        {
+          "text": "Talk to people who recently bought, not people considering buying. Interview people who DID something, not who WANT to",
+          "guest": "Bob Moesta"
+        },
+        {
+          "text": "Get to the edge of language where they have no more words, then bracket it to make them talk more",
+          "guest": "Bob Moesta"
+        }
+      ]
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "size": 40,
+      "guests": ["Brian Chesky", "Stewart Butterfield", "Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "Lead by being in the details, not by delegating and empowering. Leaders who don't understand the work can't judge quality",
+          "guest": "Brian Chesky"
+        }
+      ]
+    },
+    {
+      "id": "okrs",
+      "label": "OKRs",
+      "size": 33,
+      "guests": ["Shreyas Doshi", "Ravi Mehta"],
+      "quotes": [
+        {
+          "text": "Don't start with OKRs. Start with mission, then strategy, then product strategy, then roadmap, then goals",
+          "guest": "Ravi Mehta"
+        }
+      ]
+    },
+    {
+      "id": "roadmaps",
+      "label": "Roadmaps",
+      "size": 34,
+      "guests": ["Bob Moesta", "Gibson Biddle"],
+      "quotes": [
+        {
+          "text": "Instead of features, talk about struggling moments. That's the seed for real innovation",
+          "guest": "Bob Moesta"
+        }
+      ]
+    },
+    {
+      "id": "product-craft",
+      "label": "Product Craft",
+      "size": 37,
+      "guests": ["Stewart Butterfield", "Brian Chesky"],
+      "quotes": [
+        {
+          "text": "Taste is a competitive advantage—and it's learnable. Make it so beautiful users can't not share it",
+          "guest": "Stewart Butterfield"
+        }
+      ]
+    },
+    {
+      "id": "small-teams",
+      "label": "Small Teams",
+      "size": 30,
+      "guests": ["Stewart Butterfield", "Gokul Rajaram", "Brian Chesky"],
+      "quotes": [
+        {
+          "text": "5 teams doing one thing beats 1 team doing 5 things. Small focused teams with context outperform large teams with process",
+          "guest": "Stewart Butterfield"
+        }
+      ]
+    },
+    {
+      "id": "thinking-big",
+      "label": "Thinking Big",
+      "size": 31,
+      "guests": ["Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "At Google, if it wasn't going to generate more than $100M in revenue, it wasn't worth talking about",
+          "guest": "Shreyas Doshi"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "label": "Network Effects",
+      "size": 35,
+      "guests": ["Casey Winters", "Andrew Chen"],
+      "quotes": [
+        {
+          "text": "Network effects combined with core product differentiation creates staying power",
+          "guest": "Shreyas Doshi"
+        }
+      ]
+    },
+    {
+      "id": "virality",
+      "label": "Virality",
+      "size": 29,
+      "guests": ["Elena Verna", "Casey Winters"],
+      "quotes": [
+        {
+          "text": "Build earned/owned growth channels, not just paid. Earned channels create defensible growth loops",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "activation",
+      "label": "Activation",
+      "size": 33,
+      "guests": ["Elena Verna", "Ravi Mehta"],
+      "quotes": [
+        {
+          "text": "Make them think less, not click less. Cognitive load matters more than number of clicks",
+          "guest": "Stewart Butterfield"
+        }
+      ]
+    },
+    {
+      "id": "monetization",
+      "label": "Monetization",
+      "size": 36,
+      "guests": ["Patrick Campbell", "Elena Verna"],
+      "quotes": [
+        {
+          "text": "If product is responsible for monetization, growth comes in sooner. If sales closes, growth is less critical early",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "label": "Product-Led Growth",
+      "size": 39,
+      "guests": ["Elena Verna", "Wes Bush"],
+      "quotes": [
+        {
+          "text": "If you have any product-led components where product handles acquisition, activation, monetization or retention, that's where growth comes in",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "label": "Competition",
+      "size": 28,
+      "guests": ["Elena Verna", "April Dunford"],
+      "quotes": [
+        {
+          "text": "Know what competition is doing, be inspired by it, but don't blatantly copy. Context matters",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "data-driven",
+      "label": "Data-Driven Decisions",
+      "size": 37,
+      "guests": ["Casey Winters", "Elena Verna"],
+      "quotes": [
+        {
+          "text": "Growth cannot function without data. If you have 10 customers, that's a G-sheet, not data",
+          "guest": "Elena Verna"
+        }
+      ]
+    },
+    {
+      "id": "customer-centric",
+      "label": "Customer-Centric",
+      "size": 35,
+      "guests": ["Bob Moesta", "Patrick Collison", "Stewart Butterfield"],
+      "quotes": [
+        {
+          "text": "In the long run, the measure of success is value created for customers, not revenue or growth metrics",
+          "guest": "Stewart Butterfield"
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "label": "Speed of Execution",
+      "size": 32,
+      "guests": ["Casey Winters", "Shreyas Doshi"],
+      "quotes": [
+        {
+          "text": "If you went an entire quarter without shipping, something is deeply wrong. You can't get better without feedback",
+          "guest": "Casey Winters"
+        }
+      ]
+    },
+    {
+      "id": "quitting",
+      "label": "When to Quit",
+      "size": 26,
+      "guests": ["Annie Duke"],
+      "quotes": [
+        {
+          "text": "If you're thinking about quitting, you're already too late. The optimal quit point was 3-6 months earlier",
+          "guest": "Annie Duke"
+        }
+      ]
+    },
+    {
+      "id": "career-growth",
+      "label": "Career Growth",
+      "size": 30,
+      "guests": ["Shreyas Doshi", "Elena Verna", "Casey Winters"],
+      "quotes": [
+        {
+          "text": "Proximity to impact beats proximity to power. Optimize for learning, not status",
+          "guest": "Elena Verna"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {"source": "pmf", "target": "retention", "weight": 0.95},
+    {"source": "pmf", "target": "growth-teams", "weight": 0.85},
+    {"source": "pmf", "target": "channels", "weight": 0.80},
+    {"source": "pmf", "target": "positioning", "weight": 0.75},
+    {"source": "retention", "target": "growth-teams", "weight": 0.90},
+    {"source": "retention", "target": "activation", "weight": 0.85},
+    {"source": "retention", "target": "pmf", "weight": 0.95},
+    {"source": "growth-teams", "target": "hiring", "weight": 0.85},
+    {"source": "growth-teams", "target": "founder-led-growth", "weight": 0.90},
+    {"source": "growth-teams", "target": "data-driven", "weight": 0.80},
+    {"source": "jtbd", "target": "context-outcome", "weight": 0.95},
+    {"source": "jtbd", "target": "customer-interviews", "weight": 0.85},
+    {"source": "jtbd", "target": "research", "weight": 0.75},
+    {"source": "context-outcome", "target": "customer-interviews", "weight": 0.80},
+    {"source": "strategy", "target": "execution", "weight": 0.90},
+    {"source": "strategy", "target": "okrs", "weight": 0.75},
+    {"source": "strategy", "target": "roadmaps", "weight": 0.70},
+    {"source": "strategy", "target": "positioning", "weight": 0.80},
+    {"source": "execution", "target": "pre-mortems", "weight": 0.70},
+    {"source": "execution", "target": "lno-framework", "weight": 0.75},
+    {"source": "pre-mortems", "target": "decision-making", "weight": 0.70},
+    {"source": "lno-framework", "target": "opportunity-cost", "weight": 0.85},
+    {"source": "rebrands", "target": "experimentation", "weight": 0.65},
+    {"source": "research", "target": "customer-interviews", "weight": 0.85},
+    {"source": "research", "target": "experimentation", "weight": 0.75},
+    {"source": "research", "target": "zirp-pm", "weight": 0.80},
+    {"source": "experimentation", "target": "decision-making", "weight": 0.70},
+    {"source": "experimentation", "target": "data-driven", "weight": 0.80},
+    {"source": "decision-making", "target": "opportunity-cost", "weight": 0.75},
+    {"source": "decision-making", "target": "feedback-loops", "weight": 0.70},
+    {"source": "opportunity-cost", "target": "speed", "weight": 0.75},
+    {"source": "hiring", "target": "growth-teams", "weight": 0.85},
+    {"source": "hiring", "target": "zirp-pm", "weight": 0.70},
+    {"source": "founder-led-growth", "target": "pmf", "weight": 0.85},
+    {"source": "zirp-pm", "target": "speed", "weight": 0.80},
+    {"source": "zirp-pm", "target": "research", "weight": 0.75},
+    {"source": "positioning", "target": "pricing", "weight": 0.85},
+    {"source": "positioning", "target": "competition", "weight": 0.70},
+    {"source": "channels", "target": "virality", "weight": 0.80},
+    {"source": "channels", "target": "plg", "weight": 0.75},
+    {"source": "pricing", "target": "monetization", "weight": 0.85},
+    {"source": "metrics", "target": "data-driven", "weight": 0.85},
+    {"source": "metrics", "target": "okrs", "weight": 0.75},
+    {"source": "customer-interviews", "target": "customer-centric", "weight": 0.80},
+    {"source": "leadership", "target": "small-teams", "weight": 0.80},
+    {"source": "leadership", "target": "product-craft", "weight": 0.75},
+    {"source": "okrs", "target": "roadmaps", "weight": 0.80},
+    {"source": "roadmaps", "target": "strategy", "weight": 0.75},
+    {"source": "product-craft", "target": "customer-centric", "weight": 0.70},
+    {"source": "small-teams", "target": "speed", "weight": 0.75},
+    {"source": "thinking-big", "target": "opportunity-cost", "weight": 0.70},
+    {"source": "network-effects", "target": "virality", "weight": 0.85},
+    {"source": "virality", "target": "plg", "weight": 0.75},
+    {"source": "activation", "target": "plg", "weight": 0.85},
+    {"source": "activation", "target": "retention", "weight": 0.80},
+    {"source": "monetization", "target": "plg", "weight": 0.80},
+    {"source": "plg", "target": "growth-teams", "weight": 0.75},
+    {"source": "competition", "target": "positioning", "weight": 0.75},
+    {"source": "data-driven", "target": "metrics", "weight": 0.85},
+    {"source": "customer-centric", "target": "jtbd", "weight": 0.80},
+    {"source": "speed", "target": "execution", "weight": 0.80},
+    {"source": "quitting", "target": "opportunity-cost", "weight": 0.75},
+    {"source": "career-growth", "target": "hiring", "weight": 0.70}
+  ]
+}

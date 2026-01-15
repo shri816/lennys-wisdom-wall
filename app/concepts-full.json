@@ -1,0 +1,1132 @@
+{
+  "concepts": [
+    {
+      "id": "product-vision-over-features",
+      "name": "Product Vision Over Features",
+      "category": "Product Strategy",
+      "guests": ["Brian Chesky"],
+      "quote": "The more specific the vision, the better decisions you make",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "lno-framework",
+      "name": "LNO Framework (Leverage, Neutral, Overhead)",
+      "category": "Decision Making",
+      "guests": ["Shreyas Doshi"],
+      "quote": "LNO helps you see which work creates leverage vs just keeps the lights on",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "pre-mortem-technique",
+      "name": "Pre-mortem Technique",
+      "category": "Decision Making",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Ask: 'It's 6 months from now, this failed. What happened?'",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "product-led-growth",
+      "name": "Product-Led Growth (PLG)",
+      "category": "Growth & Marketing",
+      "guests": ["Elena Verna"],
+      "quote": "PLG is about making your product the main vehicle for acquisition, activation, and retention",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "positioning-canvas",
+      "name": "Positioning Canvas",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "Positioning is the act of deliberately defining how you are the best at something",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "jobs-to-be-done",
+      "name": "Jobs to Be Done (JTBD)",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "People don't buy products, they hire them to make progress in their lives",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "forces-of-progress",
+      "name": "Forces of Progress",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "Push of the situation, pull of new solution, anxiety of new, habit of present",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "network-effects",
+      "name": "Network Effects",
+      "category": "Growth & Marketing",
+      "guests": ["Casey Winters"],
+      "quote": "Network effects make your product more valuable as more people use it",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "cold-start-problem",
+      "name": "Cold Start Problem",
+      "category": "Growth & Marketing",
+      "guests": ["Casey Winters"],
+      "quote": "You need an atomic network: the smallest network that can stand on its own",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "marketplace-liquidity",
+      "name": "Marketplace Liquidity",
+      "category": "Metrics & Analytics",
+      "guests": ["Casey Winters"],
+      "quote": "Track time to fill: how long until supply meets demand in your marketplace",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "retention-curves",
+      "name": "Retention Curves",
+      "category": "Metrics & Analytics",
+      "guests": ["Casey Winters"],
+      "quote": "Retention curves that flatten are the signal you've found PMF",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "empowered-teams",
+      "name": "Empowered Teams vs Feature Teams",
+      "category": "Hiring & Teams",
+      "guests": ["Marty Cagan"],
+      "quote": "Give teams problems to solve, not features to build",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "product-discovery",
+      "name": "Product Discovery",
+      "category": "Product Craft & UX",
+      "guests": ["Marty Cagan"],
+      "quote": "Discovery is about rapidly testing ideas with customers, not building",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "four-risks",
+      "name": "Four Key Product Risks",
+      "category": "Decision Making",
+      "guests": ["Marty Cagan"],
+      "quote": "Every product must be valuable, usable, feasible, and viable",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "outcome-over-output",
+      "name": "Outcome Over Output",
+      "category": "Metrics & Analytics",
+      "guests": ["Marty Cagan"],
+      "quote": "Product teams are about outcomes, not output. Solve the problem.",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "three-product-ops-pillars",
+      "name": "Three Pillars of Product Ops",
+      "category": "Company Building",
+      "guests": ["Melissa Perri"],
+      "quote": "Business data, customer insights, and process governance",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "product-ops-not-pm-replacement",
+      "name": "Product Ops as PM Enablement",
+      "category": "Hiring & Teams",
+      "guests": ["Melissa Perri"],
+      "quote": "Product ops frees PMs from busy work to focus on strategic decisions",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "escape-build-trap",
+      "name": "Escaping the Build Trap",
+      "category": "Product Strategy",
+      "guests": ["Melissa Perri"],
+      "quote": "Focus on outcomes and value, not just shipping features",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "continuous-discovery",
+      "name": "Continuous Discovery Habits",
+      "category": "Product Craft & UX",
+      "guests": ["Marty Cagan"],
+      "quote": "Weekly touchpoints with customers to inform product decisions",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "gokul-speed-quality",
+      "name": "Speed as a Competitive Advantage",
+      "category": "Product Strategy",
+      "guests": ["Gokul Rajaram"],
+      "quote": "Speed is the most underrated product advantage. Ship fast, learn faster.",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gokul-pm-roles",
+      "name": "Product Manager as CEO of Product",
+      "category": "Career & Leadership",
+      "guests": ["Gokul Rajaram"],
+      "quote": "PMs own the 'what' and 'why', engineers own the 'how'",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gibson-dht",
+      "name": "DHM Model (Delight, Hard to Copy, Margin)",
+      "category": "Product Strategy",
+      "guests": ["Gibson Biddle"],
+      "quote": "Great products delight customers, are hard to copy, and have business margin",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "gibson-product-strategy",
+      "name": "Product Strategy Means Saying No",
+      "category": "Product Strategy",
+      "guests": ["Gibson Biddle"],
+      "quote": "Strategy is as much about what you choose not to do",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "gibson-metrics-pyramid",
+      "name": "North Star Metric Framework",
+      "category": "Metrics & Analytics",
+      "guests": ["Gibson Biddle"],
+      "quote": "One metric that captures the core value you deliver to customers",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "julie-design-critique",
+      "name": "Design Critique Framework",
+      "category": "Product Craft & UX",
+      "guests": ["Julie Zhuo"],
+      "quote": "Great critique focuses on goals, not personal taste",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "julie-manager-effectiveness",
+      "name": "Manager Effectiveness Framework",
+      "category": "Career & Leadership",
+      "guests": ["Julie Zhuo"],
+      "quote": "Your job as a manager is to get better outcomes from a group of people",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "julie-feedback-loops",
+      "name": "Fast Feedback Loops",
+      "category": "Product Craft & UX",
+      "guests": ["Julie Zhuo"],
+      "quote": "The faster you learn, the faster you improve",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "rahul-pmf-engine",
+      "name": "Product-Market Fit Engine",
+      "category": "Product Strategy",
+      "guests": ["Rahul Vohra"],
+      "quote": "Survey users: how disappointed would you be if this product disappeared?",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "rahul-pmf-score",
+      "name": "40% Rule for PMF",
+      "category": "Metrics & Analytics",
+      "guests": ["Rahul Vohra"],
+      "quote": "If 40% say very disappointed, you have product-market fit",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "rahul-superhuman-speed",
+      "name": "Speed as a Feature",
+      "category": "Product Craft & UX",
+      "guests": ["Rahul Vohra"],
+      "quote": "Superhuman loads in under 100ms. Speed is the product's foundation.",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "shishir-coda-rituals",
+      "name": "Product Rituals",
+      "category": "Hiring & Teams",
+      "guests": ["Shishir Mehrotra"],
+      "quote": "Rituals turn values into daily habits for teams",
+      "guest_quoted": "Shishir Mehrotra"
+    },
+    {
+      "id": "airbnb-11-star-experience",
+      "name": "11-Star Experience Exercise",
+      "category": "Product Craft & UX",
+      "guests": ["Brian Chesky"],
+      "quote": "Imagine a 5-star experience. Now imagine 11 stars. What would that be?",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "airbnb-founder-mode",
+      "name": "Founder Mode",
+      "category": "Career & Leadership",
+      "guests": ["Brian Chesky"],
+      "quote": "Stay in the details. The magic is in the craft.",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "chesky-product-marketing-one",
+      "name": "Product and Marketing as One",
+      "category": "Growth & Marketing",
+      "guests": ["Brian Chesky"],
+      "quote": "The product is the marketing. Make something people want to talk about.",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "shreyas-impact-effort",
+      "name": "Impact vs Effort Matrix",
+      "category": "Decision Making",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Most teams overestimate effort and underestimate impact",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "shreyas-strategic-work",
+      "name": "Product Work Types Framework",
+      "category": "Decision Making",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Core work, enabling work, and everything else. Know the difference.",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "shreyas-pm-growth",
+      "name": "PM Career Ladders",
+      "category": "Career & Leadership",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Junior PMs execute. Senior PMs think in systems and strategy.",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "elena-growth-loops",
+      "name": "Growth Loops Over Funnels",
+      "category": "Growth & Marketing",
+      "guests": ["Elena Verna"],
+      "quote": "Funnels leak. Loops compound. Build self-reinforcing growth.",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "elena-plg-segments",
+      "name": "PLG Customer Segments",
+      "category": "Growth & Marketing",
+      "guests": ["Elena Verna"],
+      "quote": "Different users have different activation moments. Map them all.",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "elena-expansion-revenue",
+      "name": "Net Revenue Retention",
+      "category": "Monetization & Pricing",
+      "guests": ["Elena Verna"],
+      "quote": "NRR over 100% means existing customers are growing your revenue",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "april-category-design",
+      "name": "Category Creation vs Competition",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "If you can't win in an existing category, create a new one",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "april-competitive-alternatives",
+      "name": "Competitive Alternatives Framework",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "Your competition isn't other products. It's how people solve this today.",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "april-value-pillars",
+      "name": "Value Pillars",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "Identify 3-5 things that make you demonstrably better than alternatives",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "bob-switching-interview",
+      "name": "Switching Interview Technique",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "Interview people who recently switched to understand their journey",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "bob-struggling-moments",
+      "name": "Struggling Moments",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "Innovation happens when you find the struggling moment in someone's life",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "bob-demand-supply",
+      "name": "Demand-Side vs Supply-Side",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "Most companies are supply-side focused. Winners focus on demand.",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "casey-growth-accounting",
+      "name": "Growth Accounting",
+      "category": "Metrics & Analytics",
+      "guests": ["Casey Winters"],
+      "quote": "Break down growth into new, retained, resurrected, and churned users",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "casey-input-metrics",
+      "name": "Input Metrics vs Output Metrics",
+      "category": "Metrics & Analytics",
+      "guests": ["Casey Winters"],
+      "quote": "Output metrics show results. Input metrics show what drives results.",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "marty-product-culture",
+      "name": "Product Culture vs Feature Factory",
+      "category": "Company Building",
+      "guests": ["Marty Cagan"],
+      "quote": "In feature factories, PMs write specs. In product companies, they solve problems.",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "marty-strategic-context",
+      "name": "Strategic Context for Teams",
+      "category": "Product Strategy",
+      "guests": ["Marty Cagan"],
+      "quote": "Teams need vision, strategy, and objectives to make good decisions",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "marty-pm-competencies",
+      "name": "PM Core Competencies",
+      "category": "Career & Leadership",
+      "guests": ["Marty Cagan"],
+      "quote": "Know users, know data, know business, know industry",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "marty-coaching-teams",
+      "name": "Coaching Over Process",
+      "category": "Career & Leadership",
+      "guests": ["Marty Cagan"],
+      "quote": "Scale with leaders who coach, not with process",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "melissa-product-ops-sacred",
+      "name": "Three Sacred PM Access Points",
+      "category": "Hiring & Teams",
+      "guests": ["Melissa Perri"],
+      "quote": "PMs need direct access to customers, engineers, and stakeholders",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "melissa-strategy-deployment",
+      "name": "Strategy Deployment",
+      "category": "Product Strategy",
+      "guests": ["Melissa Perri"],
+      "quote": "Strategy is worthless if it doesn't translate to daily decisions",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "gokul-spade",
+      "name": "SPADE Decision Framework",
+      "category": "Decision Making",
+      "guests": ["Gokul Rajaram"],
+      "quote": "Setting, People, Alternatives, Decide, Explain. Structure big decisions.",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gokul-disagreement-commit",
+      "name": "Disagree and Commit",
+      "category": "Hiring & Teams",
+      "guests": ["Gokul Rajaram"],
+      "quote": "After debate, commit fully even if you disagreed",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gibson-experimentation",
+      "name": "Rapid Experimentation",
+      "category": "Product Craft & UX",
+      "guests": ["Gibson Biddle"],
+      "quote": "Run 100 experiments. 10 will succeed. That's your edge.",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "gibson-consumer-science",
+      "name": "Consumer Science Tests",
+      "category": "Customer Research",
+      "guests": ["Gibson Biddle"],
+      "quote": "Test with 50-100 users before building. Saves months of work.",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "julie-design-portfolio",
+      "name": "Design Portfolio Review",
+      "category": "Hiring & Teams",
+      "guests": ["Julie Zhuo"],
+      "quote": "Judge designers by their process, not just pixels",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "julie-1-on-1s",
+      "name": "Effective 1-on-1s",
+      "category": "Career & Leadership",
+      "guests": ["Julie Zhuo"],
+      "quote": "1-on-1s are for them, not you. Ask what they need.",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "julie-delegation",
+      "name": "Delegation Framework",
+      "category": "Career & Leadership",
+      "guests": ["Julie Zhuo"],
+      "quote": "Delegate outcomes, not tasks. Give context, not instructions.",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "rahul-segmentation",
+      "name": "User Segmentation for PMF",
+      "category": "Customer Research",
+      "guests": ["Rahul Vohra"],
+      "quote": "Double down on users who would be very disappointed to lose you",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "rahul-onboarding",
+      "name": "First-Time User Experience",
+      "category": "Product Craft & UX",
+      "guests": ["Rahul Vohra"],
+      "quote": "Your onboarding should get users to their aha moment fast",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "airbnb-storytelling",
+      "name": "Founder Storytelling",
+      "category": "Company Building",
+      "guests": ["Brian Chesky"],
+      "quote": "The founder's job is to tell a story that inspires people to join",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "airbnb-design-reviews",
+      "name": "Weekly Design Reviews",
+      "category": "Product Craft & UX",
+      "guests": ["Brian Chesky"],
+      "quote": "I review every product detail weekly. This is where quality comes from.",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "shreyas-execution-taxonomy",
+      "name": "Execution Taxonomy",
+      "category": "Decision Making",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Strategy, planning, execution, learning. Know which phase you're in.",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "shreyas-tech-debt",
+      "name": "Tech Debt Framework",
+      "category": "Product Strategy",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Tech debt is okay if it's strategic. Make it conscious, not accidental.",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "elena-activation-metrics",
+      "name": "Activation Moment",
+      "category": "Metrics & Analytics",
+      "guests": ["Elena Verna"],
+      "quote": "Find the moment users first experience value. Optimize that.",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "elena-pricing-packaging",
+      "name": "Value-Based Pricing",
+      "category": "Monetization & Pricing",
+      "guests": ["Elena Verna"],
+      "quote": "Price on value delivered, not cost to build",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "april-sales-positioning",
+      "name": "Sales Positioning Playbook",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "Positioning isn't marketing fluff. It's how sales wins deals.",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "april-market-category",
+      "name": "Market Category Selection",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "Pick a category where your strengths become the buying criteria",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "bob-timeline-interview",
+      "name": "Timeline Interview Technique",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "Walk backward from the purchase to understand the decision journey",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "bob-causation",
+      "name": "Causation Over Correlation",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "Understanding why causes behavior lets you predict and influence it",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "casey-referral-loops",
+      "name": "Referral Loops",
+      "category": "Growth & Marketing",
+      "guests": ["Casey Winters"],
+      "quote": "Best referral programs are built into the product, not bolted on",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "casey-supply-demand-balance",
+      "name": "Marketplace Balance",
+      "category": "Metrics & Analytics",
+      "guests": ["Casey Winters"],
+      "quote": "Monitor both sides of your marketplace. Imbalance kills growth.",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "marty-user-researcher-attendance",
+      "name": "PM Attendance at User Research",
+      "category": "Customer Research",
+      "guests": ["Marty Cagan"],
+      "quote": "If the PM can't attend user research, cancel it. They must be there.",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "marty-solution-discovery",
+      "name": "Solution Discovery vs Problem Discovery",
+      "category": "Product Craft & UX",
+      "guests": ["Marty Cagan"],
+      "quote": "Most teams spend too much time on the problem. Win on the solution.",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "marty-roadmap-problem-format",
+      "name": "Problem-Based Roadmaps",
+      "category": "Product Strategy",
+      "guests": ["Marty Cagan"],
+      "quote": "Roadmaps should list problems to solve, not features to build",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "melissa-product-owner-pm",
+      "name": "Product Owner vs Product Manager",
+      "category": "Career & Leadership",
+      "guests": ["Melissa Perri"],
+      "quote": "Product owners coordinate. Product managers make strategic decisions.",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "melissa-ops-ratio",
+      "name": "Product Ops Team Sizing",
+      "category": "Hiring & Teams",
+      "guests": ["Melissa Perri"],
+      "quote": "If you're at 1:1 ops to PM ratio, you're doing it wrong",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "gokul-metrics-trees",
+      "name": "Metrics Tree Framework",
+      "category": "Metrics & Analytics",
+      "guests": ["Gokul Rajaram"],
+      "quote": "Break your north star into leading indicators you can action",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gokul-product-reviews",
+      "name": "Product Review Cadence",
+      "category": "Hiring & Teams",
+      "guests": ["Gokul Rajaram"],
+      "quote": "Weekly product reviews keep quality high and everyone aligned",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gibson-culture-deck",
+      "name": "Culture Deck",
+      "category": "Company Building",
+      "guests": ["Gibson Biddle"],
+      "quote": "Write down your culture explicitly. Netflix did. You should too.",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "gibson-ab-testing",
+      "name": "A/B Testing Discipline",
+      "category": "Product Craft & UX",
+      "guests": ["Gibson Biddle"],
+      "quote": "Test everything. Let data trump opinions.",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "julie-feedback-equation",
+      "name": "Feedback Equation",
+      "category": "Career & Leadership",
+      "guests": ["Julie Zhuo"],
+      "quote": "Observation + Impact + Question. That's the feedback formula.",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "julie-hiring-bar",
+      "name": "Raising the Hiring Bar",
+      "category": "Hiring & Teams",
+      "guests": ["Julie Zhuo"],
+      "quote": "Every hire should raise your team's average. No exceptions.",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "rahul-keyboard-shortcuts",
+      "name": "Power User Features",
+      "category": "Product Craft & UX",
+      "guests": ["Rahul Vohra"],
+      "quote": "Keyboard shortcuts make power users feel superhuman",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "rahul-waitlist-strategy",
+      "name": "Waitlist as Positioning",
+      "category": "Growth & Marketing",
+      "guests": ["Rahul Vohra"],
+      "quote": "A waitlist builds anticipation and creates exclusivity",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "airbnb-belong-anywhere",
+      "name": "Mission-Driven Product",
+      "category": "Company Building",
+      "guests": ["Brian Chesky"],
+      "quote": "Our mission 'belong anywhere' guides every product decision",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "airbnb-host-obsession",
+      "name": "Two-Sided Platform Balance",
+      "category": "Product Strategy",
+      "guests": ["Brian Chesky"],
+      "quote": "In marketplaces, obsess over both sides equally",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "shreyas-pm-types",
+      "name": "Three Types of PMs",
+      "category": "Career & Leadership",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Craftsperson, operator, or strategist. Know which you are.",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "shreyas-escalation-protocol",
+      "name": "Escalation Framework",
+      "category": "Decision Making",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Escalate early when stuck. Waiting wastes everyone's time.",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "elena-monetization-timing",
+      "name": "When to Monetize",
+      "category": "Monetization & Pricing",
+      "guests": ["Elena Verna"],
+      "quote": "Monetize after you've proven value, not before",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "elena-viral-coefficient",
+      "name": "Viral Coefficient",
+      "category": "Metrics & Analytics",
+      "guests": ["Elena Verna"],
+      "quote": "K factor above 1 means exponential growth. That's the goal.",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "april-positioning-workshop",
+      "name": "Positioning Workshop Format",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "Get cross-functional team in a room for 4 hours. Come out aligned.",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "bob-passive-data",
+      "name": "Active Listening in Interviews",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "Listen to what they did, not what they say they'll do",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "casey-k-factor",
+      "name": "K-Factor Measurement",
+      "category": "Metrics & Analytics",
+      "guests": ["Casey Winters"],
+      "quote": "Invites sent x conversion rate = viral coefficient",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "marty-continuous-delivery",
+      "name": "Continuous Deployment",
+      "category": "Product Craft & UX",
+      "guests": ["Marty Cagan"],
+      "quote": "Ship multiple times per day. Releases should be non-events.",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "marty-process-disease",
+      "name": "Disease of Process People",
+      "category": "Company Building",
+      "guests": ["Marty Cagan"],
+      "quote": "Process kills innovation. Scale with leaders, not process.",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "melissa-ops-win-focus",
+      "name": "Quick Wins for Product Ops",
+      "category": "Company Building",
+      "guests": ["Melissa Perri"],
+      "quote": "Start with one pillar. Show value fast. Then expand.",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "melissa-transformation",
+      "name": "Product Transformation",
+      "category": "Company Building",
+      "guests": ["Melissa Perri"],
+      "quote": "Training alone won't transform. You need systems and ops too.",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "gokul-doc-culture",
+      "name": "Writing Culture",
+      "category": "Company Building",
+      "guests": ["Gokul Rajaram"],
+      "quote": "Write down decisions. It forces clear thinking.",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gibson-customer-letters",
+      "name": "Reverse Press Release",
+      "category": "Product Strategy",
+      "guests": ["Gibson Biddle"],
+      "quote": "Write the launch press release first. Work backward from there.",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "julie-taste",
+      "name": "Developing Product Taste",
+      "category": "Product Craft & UX",
+      "guests": ["Julie Zhuo"],
+      "quote": "Taste comes from seeing thousands of examples and critiquing them",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "rahul-emotional-delight",
+      "name": "Delight Through Details",
+      "category": "Product Craft & UX",
+      "guests": ["Rahul Vohra"],
+      "quote": "Small details create emotional connection with your product",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "airbnb-zero-to-one",
+      "name": "Zero to One Products",
+      "category": "Product Strategy",
+      "guests": ["Brian Chesky"],
+      "quote": "Do things that don't scale first. Perfect the experience.",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "shreyas-say-no",
+      "name": "The Art of Saying No",
+      "category": "Decision Making",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Learn to say no gracefully. Your roadmap depends on it.",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "elena-freemium-model",
+      "name": "Freemium Model Design",
+      "category": "Monetization & Pricing",
+      "guests": ["Elena Verna"],
+      "quote": "Free tier should create habit. Paid tier unlocks scale.",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "april-messaging-hierarchy",
+      "name": "Messaging Hierarchy",
+      "category": "Growth & Marketing",
+      "guests": ["April Dunford"],
+      "quote": "Lead with differentiation, not features. Why you, not what you do.",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "bob-jobs-interview",
+      "name": "Jobs Interview Script",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "First thought, when, where, who, what trade-offs. Follow the story.",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "casey-growth-team-structure",
+      "name": "Growth Team Structure",
+      "category": "Hiring & Teams",
+      "guests": ["Casey Winters"],
+      "quote": "Growth teams own metrics. Product teams own features.",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "marty-product-vision",
+      "name": "Compelling Product Vision",
+      "category": "Product Strategy",
+      "guests": ["Marty Cagan"],
+      "quote": "Vision should be inspiring and 2-5 years out",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "melissa-ops-data-analyst",
+      "name": "Product Ops Data Expertise",
+      "category": "Hiring & Teams",
+      "guests": ["Melissa Perri"],
+      "quote": "First product ops hire often comes from consulting or data analytics",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "gokul-amazon-narratives",
+      "name": "Six-Page Narratives",
+      "category": "Decision Making",
+      "guests": ["Gokul Rajaram"],
+      "quote": "Amazon bans PowerPoint. Write narratives. Read silently. Then discuss.",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gibson-member-joy",
+      "name": "Customer Delight Metric",
+      "category": "Metrics & Analytics",
+      "guests": ["Gibson Biddle"],
+      "quote": "Track delight explicitly. It predicts retention better than engagement.",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "julie-growth-mindset",
+      "name": "Growth Mindset in Teams",
+      "category": "Career & Leadership",
+      "guests": ["Julie Zhuo"],
+      "quote": "Hire for learning ability, not just experience",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "rahul-vertical-focus",
+      "name": "Vertical Focus Strategy",
+      "category": "Product Strategy",
+      "guests": ["Rahul Vohra"],
+      "quote": "Win one vertical completely before expanding horizontally",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "airbnb-trust-safety",
+      "name": "Trust and Safety as Core",
+      "category": "Product Strategy",
+      "guests": ["Brian Chesky"],
+      "quote": "In marketplaces, trust isn't a feature. It's the foundation.",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "shreyas-influence-model",
+      "name": "Influence Without Authority",
+      "category": "Career & Leadership",
+      "guests": ["Shreyas Doshi"],
+      "quote": "PMs influence through data, storytelling, and relationships",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "elena-plg-sales-hybrid",
+      "name": "PLG-Sales Hybrid Model",
+      "category": "Growth & Marketing",
+      "guests": ["Elena Verna"],
+      "quote": "Product gets users in. Sales closes the big accounts.",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "april-feature-matrix",
+      "name": "Competitive Feature Matrix",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "Don't compete on feature parity. Compete on different dimensions.",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "bob-innovation-accounting",
+      "name": "Measuring Innovation Progress",
+      "category": "Metrics & Analytics",
+      "guests": ["Bob Moesta"],
+      "quote": "Track struggling moments solved, not features shipped",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "casey-geographic-expansion",
+      "name": "Geographic Expansion Strategy",
+      "category": "Growth & Marketing",
+      "guests": ["Casey Winters"],
+      "quote": "Build density in one city before expanding to the next",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "marty-missionary-teams",
+      "name": "Missionaries vs Mercenaries",
+      "category": "Hiring & Teams",
+      "guests": ["Marty Cagan"],
+      "quote": "Missionaries believe in the mission. Mercenaries just do their job.",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "melissa-portfolio-roadmap",
+      "name": "Portfolio Roadmap View",
+      "category": "Product Strategy",
+      "guests": ["Melissa Perri"],
+      "quote": "Executives need portfolio view, not Jira tickets",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "gokul-board-decks",
+      "name": "Board Meeting Preparation",
+      "category": "Career & Leadership",
+      "guests": ["Gokul Rajaram"],
+      "quote": "Spend 2 weeks on your board deck. It's that important.",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gibson-triple-double",
+      "name": "Triple Double Strategy",
+      "category": "Product Strategy",
+      "guests": ["Gibson Biddle"],
+      "quote": "Double engagement, double content, double revenue. That's scale.",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "julie-design-sprint",
+      "name": "Design Sprint Method",
+      "category": "Product Craft & UX",
+      "guests": ["Julie Zhuo"],
+      "quote": "5 days to solve big problems and test new ideas",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "rahul-word-of-mouth",
+      "name": "Word of Mouth Engine",
+      "category": "Growth & Marketing",
+      "guests": ["Rahul Vohra"],
+      "quote": "Build something so good people can't help but tell others",
+      "guest_quoted": "Rahul Vohra"
+    },
+    {
+      "id": "airbnb-photos-quality",
+      "name": "Professional Photography Program",
+      "category": "Growth & Marketing",
+      "guests": ["Brian Chesky"],
+      "quote": "We sent photographers to hosts' homes. Bookings doubled overnight.",
+      "guest_quoted": "Brian Chesky"
+    },
+    {
+      "id": "shreyas-pm-anti-patterns",
+      "name": "PM Anti-Patterns",
+      "category": "Career & Leadership",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Order taker, feature factory worker, pixel pusher. Avoid these traps.",
+      "guest_quoted": "Shreyas Doshi"
+    },
+    {
+      "id": "elena-cohort-retention",
+      "name": "Cohort Analysis",
+      "category": "Metrics & Analytics",
+      "guests": ["Elena Verna"],
+      "quote": "Compare user cohorts over time to spot what's working",
+      "guest_quoted": "Elena Verna"
+    },
+    {
+      "id": "april-pivot-positioning",
+      "name": "Pivot Positioning Strategy",
+      "category": "Product Strategy",
+      "guests": ["April Dunford"],
+      "quote": "When pivoting, reposition completely. Don't confuse the market.",
+      "guest_quoted": "April Dunford"
+    },
+    {
+      "id": "bob-hire-fire-criteria",
+      "name": "Hire and Fire Forces",
+      "category": "Customer Research",
+      "guests": ["Bob Moesta"],
+      "quote": "Understand both why people hire your product and why they fire it",
+      "guest_quoted": "Bob Moesta"
+    },
+    {
+      "id": "casey-content-distribution",
+      "name": "Content Distribution Strategy",
+      "category": "Growth & Marketing",
+      "guests": ["Casey Winters"],
+      "quote": "Create content where your users already spend time",
+      "guest_quoted": "Casey Winters"
+    },
+    {
+      "id": "marty-stakeholder-management",
+      "name": "Stakeholder Management",
+      "category": "Career & Leadership",
+      "guests": ["Marty Cagan"],
+      "quote": "Bring stakeholders prototypes, not requirements. Show don't tell.",
+      "guest_quoted": "Marty Cagan"
+    },
+    {
+      "id": "melissa-okr-deployment",
+      "name": "OKR Deployment",
+      "category": "Company Building",
+      "guests": ["Melissa Perri"],
+      "quote": "OKRs cascade down. Track them in dashboards, not spreadsheets.",
+      "guest_quoted": "Melissa Perri"
+    },
+    {
+      "id": "gokul-weekly-metrics",
+      "name": "Weekly Metrics Review",
+      "category": "Metrics & Analytics",
+      "guests": ["Gokul Rajaram"],
+      "quote": "Review your key metrics every Monday. No exceptions.",
+      "guest_quoted": "Gokul Rajaram"
+    },
+    {
+      "id": "gibson-testing-budget",
+      "name": "Experimentation Budget",
+      "category": "Product Craft & UX",
+      "guests": ["Gibson Biddle"],
+      "quote": "Allocate 10-20% of eng time to experiments. Protect it.",
+      "guest_quoted": "Gibson Biddle"
+    },
+    {
+      "id": "julie-first-90-days",
+      "name": "First 90 Days as PM",
+      "category": "Career & Leadership",
+      "guests": ["Julie Zhuo"],
+      "quote": "Spend first month learning, second building trust, third executing",
+      "guest_quoted": "Julie Zhuo"
+    },
+    {
+      "id": "rahul-pricing-transparency",
+      "name": "Transparent Pricing",
+      "category": "Monetization & Pricing",
+      "guests": ["Rahul Vohra"],
+      "quote": "Show pricing publicly. It qualifies leads and builds trust.",
+      "guest_quoted": "Rahul Vohra"
+    }
+  ]
+}

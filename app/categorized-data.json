@@ -1,0 +1,518 @@
+{
+  "categories": [
+    {
+      "id": "product-strategy",
+      "name": "Product Strategy",
+      "color": "#FF6B35",
+      "icon": "🎯"
+    },
+    {
+      "id": "growth-marketing",
+      "name": "Growth & Marketing",
+      "color": "#4ECDC4",
+      "icon": "📈"
+    },
+    {
+      "id": "career-leadership",
+      "name": "Career & Leadership",
+      "color": "#95E1D3",
+      "icon": "👥"
+    },
+    {
+      "id": "decision-making",
+      "name": "Decision Making",
+      "color": "#F38181",
+      "icon": "🧠"
+    },
+    {
+      "id": "hiring-teams",
+      "name": "Hiring & Teams",
+      "color": "#AA96DA",
+      "icon": "🤝"
+    },
+    {
+      "id": "customer-research",
+      "name": "Customer Research",
+      "color": "#FCBAD3",
+      "icon": "🔍"
+    },
+    {
+      "id": "metrics-analytics",
+      "name": "Metrics & Analytics",
+      "color": "#A8D8EA",
+      "icon": "📊"
+    },
+    {
+      "id": "execution",
+      "name": "Execution & Craft",
+      "color": "#FFD93D",
+      "icon": "⚡"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "pmf",
+      "name": "Product-Market Fit",
+      "category": "product-strategy",
+      "guests": ["Elena Verna", "Gokul Rajaram", "Brian Chesky"],
+      "quote": "PMF is insufficient—you need product-market-channel fit. 40-50% of customers should come organically",
+      "guestQuoted": "Gokul Rajaram"
+    },
+    {
+      "id": "retention",
+      "name": "Retention",
+      "category": "metrics-analytics",
+      "guests": ["Elena Verna", "Casey Winters", "Gibson Biddle"],
+      "quote": "Focus on retention before growth. Don't hire a growth team until you have strong retention",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "growth-teams",
+      "name": "Growth Teams",
+      "category": "hiring-teams",
+      "guests": ["Elena Verna", "Casey Winters"],
+      "quote": "Founder-led growth is essential. The longer you wait to hire growth, the better",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "jtbd",
+      "name": "Jobs to Be Done",
+      "category": "customer-research",
+      "guests": ["Bob Moesta"],
+      "quote": "It's context and outcome, not pain and gain. People hire products to make progress",
+      "guestQuoted": "Bob Moesta"
+    },
+    {
+      "id": "strategy-vs-execution",
+      "name": "Strategy vs Execution",
+      "category": "product-strategy",
+      "guests": ["Shreyas Doshi", "Brian Chesky"],
+      "quote": "Most execution problems are really strategy problems. Fix the strategy first",
+      "guestQuoted": "Shreyas Doshi"
+    },
+    {
+      "id": "pre-mortems",
+      "name": "Pre-Mortems",
+      "category": "decision-making",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Imagine this project has failed—what went wrong? If done right, you won't need an ugly post-mortem",
+      "guestQuoted": "Shreyas Doshi"
+    },
+    {
+      "id": "lno-framework",
+      "name": "LNO Framework",
+      "category": "execution",
+      "guests": ["Shreyas Doshi"],
+      "quote": "Leverage tasks return 10-100x, Neutral 1x, Overhead less. Not all tasks are equal",
+      "guestQuoted": "Shreyas Doshi"
+    },
+    {
+      "id": "rebrands",
+      "name": "Rebrands & Redesigns",
+      "category": "growth-marketing",
+      "guests": ["Elena Verna"],
+      "quote": "Never once have I seen a rebrand produce good results. It's always a 3-6 month setback",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "customer-interviews",
+      "name": "Customer Interviews",
+      "category": "customer-research",
+      "guests": ["Bob Moesta", "April Dunford"],
+      "quote": "Interview people who recently BOUGHT, not who WANT to. Study what they did, not what they say",
+      "guestQuoted": "Bob Moesta"
+    },
+    {
+      "id": "decision-making",
+      "name": "Independent Decision Making",
+      "category": "decision-making",
+      "guests": ["Annie Duke"],
+      "quote": "Best decisions happen when people submit judgment independently before meetings",
+      "guestQuoted": "Annie Duke"
+    },
+    {
+      "id": "opportunity-cost",
+      "name": "Opportunity Cost",
+      "category": "product-strategy",
+      "guests": ["Casey Winters"],
+      "quote": "Ask 'Is this the BEST use of time?' not 'Is this GOOD?' Optimize for opportunity cost, not ROI",
+      "guestQuoted": "Casey Winters"
+    },
+    {
+      "id": "feedback-loops",
+      "name": "Shortening Feedback Loops",
+      "category": "execution",
+      "guests": ["Annie Duke"],
+      "quote": "You don't have long feedback loops—you're choosing not to shorten them. Find leading indicators",
+      "guestQuoted": "Annie Duke"
+    },
+    {
+      "id": "founder-led-growth",
+      "name": "Founder-Led Growth",
+      "category": "growth-marketing",
+      "guests": ["Elena Verna"],
+      "quote": "Don't hire growth until $1-5M ARR minimum. Founders must figure out growth first",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "zirp-pm",
+      "name": "Zero Interest Rate PM",
+      "category": "career-leadership",
+      "guests": ["Casey Winters"],
+      "quote": "Every new PM acts like they work at Google with infinite resources. Ship to learn, not research forever",
+      "guestQuoted": "Casey Winters"
+    },
+    {
+      "id": "positioning",
+      "name": "Positioning",
+      "category": "product-strategy",
+      "guests": ["April Dunford", "Gibson Biddle"],
+      "quote": "Positioning defines how you win. It's not fluff—it's how you're best in the world at delivering value",
+      "guestQuoted": "April Dunford"
+    },
+    {
+      "id": "channels",
+      "name": "Growth Channels",
+      "category": "growth-marketing",
+      "guests": ["Gokul Rajaram", "Elena Verna"],
+      "quote": "If 90% comes from paid channels, the music eventually stops. Build owned channels",
+      "guestQuoted": "Gokul Rajaram"
+    },
+    {
+      "id": "leadership",
+      "name": "In the Details Leadership",
+      "category": "career-leadership",
+      "guests": ["Brian Chesky", "Stewart Butterfield"],
+      "quote": "Lead by being in the details, not by delegating. Leaders who don't understand can't judge quality",
+      "guestQuoted": "Brian Chesky"
+    },
+    {
+      "id": "okrs",
+      "name": "OKRs",
+      "category": "metrics-analytics",
+      "guests": ["Shreyas Doshi", "Ravi Mehta"],
+      "quote": "Don't start with OKRs. Start with mission → strategy → product strategy → roadmap → goals",
+      "guestQuoted": "Ravi Mehta"
+    },
+    {
+      "id": "small-teams",
+      "name": "Small Teams",
+      "category": "hiring-teams",
+      "guests": ["Stewart Butterfield", "Brian Chesky"],
+      "quote": "5 teams doing one thing beats 1 team doing 5 things. Small focused teams outperform",
+      "guestQuoted": "Stewart Butterfield"
+    },
+    {
+      "id": "thinking-big",
+      "name": "Thinking Big",
+      "category": "product-strategy",
+      "guests": ["Shreyas Doshi"],
+      "quote": "At Google, if it wasn't $100M+ revenue, it wasn't worth discussing. Think bigger",
+      "guestQuoted": "Shreyas Doshi"
+    },
+    {
+      "id": "network-effects",
+      "name": "Network Effects",
+      "category": "product-strategy",
+      "guests": ["Casey Winters", "Andrew Chen"],
+      "quote": "Network effects + core product differentiation creates staying power",
+      "guestQuoted": "Shreyas Doshi"
+    },
+    {
+      "id": "activation",
+      "name": "Activation",
+      "category": "growth-marketing",
+      "guests": ["Elena Verna", "Ravi Mehta"],
+      "quote": "Make them think less, not click less. Cognitive load matters more than number of clicks",
+      "guestQuoted": "Stewart Butterfield"
+    },
+    {
+      "id": "plg",
+      "name": "Product-Led Growth",
+      "category": "growth-marketing",
+      "guests": ["Elena Verna", "Wes Bush"],
+      "quote": "If product handles acquisition, activation, monetization or retention, growth matters early",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "data-driven",
+      "name": "Data-Driven Decisions",
+      "category": "metrics-analytics",
+      "guests": ["Casey Winters", "Elena Verna"],
+      "quote": "Growth cannot function without data. If you have 10 customers, that's a spreadsheet, not data",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "speed",
+      "name": "Speed of Execution",
+      "category": "execution",
+      "guests": ["Casey Winters", "Shreyas Doshi"],
+      "quote": "If you went a quarter without shipping, something is deeply wrong. You can't improve without feedback",
+      "guestQuoted": "Casey Winters"
+    },
+    {
+      "id": "quitting",
+      "name": "When to Quit",
+      "category": "decision-making",
+      "guests": ["Annie Duke"],
+      "quote": "If you're thinking about quitting, you're already too late. Optimal quit point was 3-6 months earlier",
+      "guestQuoted": "Annie Duke"
+    },
+    {
+      "id": "career-growth",
+      "name": "Career Growth",
+      "category": "career-leadership",
+      "guests": ["Shreyas Doshi", "Elena Verna"],
+      "quote": "Proximity to impact beats proximity to power. Optimize for learning, not status",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "product-craft",
+      "name": "Product Craft",
+      "category": "execution",
+      "guests": ["Stewart Butterfield", "Brian Chesky"],
+      "quote": "Taste is a competitive advantage—and it's learnable. Obsess over the details",
+      "guestQuoted": "Stewart Butterfield"
+    },
+    {
+      "id": "pricing",
+      "name": "Pricing Strategy",
+      "category": "product-strategy",
+      "guests": ["Patrick Campbell", "April Dunford"],
+      "quote": "Pricing is a reflection of value. Get positioning right first, then pricing becomes clearer",
+      "guestQuoted": "April Dunford"
+    },
+    {
+      "id": "hiring",
+      "name": "Hiring Philosophy",
+      "category": "hiring-teams",
+      "guests": ["Casey Winters", "Shreyas Doshi"],
+      "quote": "Give real scenarios from the role. Don't care about practiced answers. See them do the job",
+      "guestQuoted": "Casey Winters"
+    },
+    {
+      "id": "context-outcome",
+      "name": "Context + Outcome",
+      "category": "customer-research",
+      "guests": ["Bob Moesta"],
+      "quote": "It's not pain and gain, it's context and outcomes. The context makes the irrational rational",
+      "guestQuoted": "Bob Moesta"
+    },
+    {
+      "id": "experimentation",
+      "name": "Experimentation",
+      "category": "metrics-analytics",
+      "guests": ["Elena Verna", "Annie Duke"],
+      "quote": "If every initiative is an experiment, that's paralysis. Not everything deserves A/B testing",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "customer-centric",
+      "name": "Customer-Centric",
+      "category": "product-strategy",
+      "guests": ["Stewart Butterfield", "Bob Moesta"],
+      "quote": "Long-term success is measured by value created for customers, not revenue or growth metrics",
+      "guestQuoted": "Stewart Butterfield"
+    },
+    {
+      "id": "virality",
+      "name": "Virality",
+      "category": "growth-marketing",
+      "guests": ["Elena Verna", "Casey Winters"],
+      "quote": "Build earned/owned channels, not just paid. Earned channels create defensible growth loops",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "monetization",
+      "name": "Monetization",
+      "category": "product-strategy",
+      "guests": ["Patrick Campbell", "Elena Verna"],
+      "quote": "If product monetizes, growth comes sooner. If sales closes, growth is less critical early",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "competition",
+      "name": "Learning from Competition",
+      "category": "product-strategy",
+      "guests": ["Elena Verna", "April Dunford"],
+      "quote": "Know what competition is doing, be inspired, but don't blindly copy. Context matters",
+      "guestQuoted": "Elena Verna"
+    },
+    {
+      "id": "research",
+      "name": "User Research",
+      "category": "customer-research",
+      "guests": ["Casey Winters", "Bob Moesta"],
+      "quote": "The fastest way to learn is often to ship, not do extensive research. Ship to learn",
+      "guestQuoted": "Casey Winters"
+    },
+    {
+      "id": "roadmaps",
+      "name": "Roadmaps",
+      "category": "execution",
+      "guests": ["Gibson Biddle", "Shreyas Doshi"],
+      "quote": "Instead of features, talk about struggling moments. That's the seed for real innovation",
+      "guestQuoted": "Bob Moesta"
+    },
+    {
+      "id": "curious-disagreement",
+      "name": "Curious Disagreement",
+      "category": "career-leadership",
+      "guests": ["Ami Vora"],
+      "quote": "When someone thinks something crazy wrong, respond 'Fascinating, you have to tell me more why you think that.' Curiosity in moments of challenge can completely tear down walls.",
+      "guestQuoted": "Ami Vora"
+    },
+    {
+      "id": "dinosaur-brain",
+      "name": "Dinosaur Brain",
+      "category": "execution",
+      "guests": ["Ami Vora"],
+      "quote": "Executives have a little brontosaurus brain and can only hold three facts at once. Make a recommendation—don't dump information.",
+      "guestQuoted": "Ami Vora"
+    },
+    {
+      "id": "hill-climb-metaphor",
+      "name": "Hill Climb",
+      "category": "decision-making",
+      "guests": ["Ami Vora"],
+      "quote": "The hill climb is about local optimum vs. global optimum. Climbing down into the valley to reach the mountain is worth it—remember what the summit feels like.",
+      "guestQuoted": "Ami Vora"
+    },
+    {
+      "id": "onboarding-leverage",
+      "name": "Onboarding Leverage",
+      "category": "growth-marketing",
+      "guests": ["Adam Fishman"],
+      "quote": "Onboarding is the only part of your product 100% of people touch. It's your first chance to deliver on the promise your brand made.",
+      "guestQuoted": "Adam Fishman"
+    },
+    {
+      "id": "pmf-for-candidates",
+      "name": "PMF for Candidates",
+      "category": "career-leadership",
+      "guests": ["Adam Fishman"],
+      "quote": "People, mission, and financials. Evaluate companies on these three criteria before joining, and don't settle for two out of three.",
+      "guestQuoted": "Adam Fishman"
+    },
+    {
+      "id": "boring-is-good",
+      "name": "Boring is Good",
+      "category": "product-strategy",
+      "guests": ["Andrew Wilkinson"],
+      "quote": "Fish where the fish are. Find a small fishing hole with lots of fish and little competition—boring businesses often win.",
+      "guestQuoted": "Andrew Wilkinson"
+    },
+    {
+      "id": "lazy-leadership",
+      "name": "Lazy Leadership",
+      "category": "execution",
+      "guests": ["Andrew Wilkinson"],
+      "quote": "Get away from the things you hate as quickly as possible. Be Teflon for tasks. If it scales, you won't touch a pressure washer.",
+      "guestQuoted": "Andrew Wilkinson"
+    },
+    {
+      "id": "people-problems",
+      "name": "People Problems",
+      "category": "hiring-teams",
+      "guests": ["Andrew Wilkinson"],
+      "quote": "There are no problems, only people problems. If I ever think 'should I fire this person' even once, I should fire them immediately.",
+      "guestQuoted": "Andrew Wilkinson"
+    },
+    {
+      "id": "mental-health-first",
+      "name": "Mental Health First",
+      "category": "career-leadership",
+      "guests": ["Andy Johns"],
+      "quote": "If your sleep, relationships, or physical health is suffering, your body is telling you to stop. Something needs to change.",
+      "guestQuoted": "Andy Johns"
+    },
+    {
+      "id": "suffering-truth-compassion",
+      "name": "Four Steps of Transformation",
+      "category": "career-leadership",
+      "guests": ["Andy Johns"],
+      "quote": "Suffer. Seek truth for your suffering. Practice self-compassion. Extend compassion to others. That's the four-step cycle of deep transformation.",
+      "guestQuoted": "Andy Johns"
+    },
+    {
+      "id": "new-distribution-platforms",
+      "name": "New Distribution Platforms",
+      "category": "growth-marketing",
+      "guests": ["Brian Balfour"],
+      "quote": "New distribution platforms follow a four-step cycle: conditions met, moat identified, platform opens, platform closes. ChatGPT is next.",
+      "guestQuoted": "Brian Balfour"
+    },
+    {
+      "id": "escape-velocity",
+      "name": "Escape Velocity",
+      "category": "product-strategy",
+      "guests": ["Brian Balfour"],
+      "quote": "Startups is a game of getting distribution before the incumbent can copy. There is no opting out—you have to play the game.",
+      "guestQuoted": "Brian Balfour"
+    },
+    {
+      "id": "hard-constraints",
+      "name": "Hard Constraints",
+      "category": "execution",
+      "guests": ["Brian Balfour"],
+      "quote": "The companies making real AI transformation progress set hard constraints—like team sizes at one-fifth the benchmark or no new headcount without proving AI can't do it.",
+      "guestQuoted": "Brian Balfour"
+    },
+    {
+      "id": "agents-are-the-future",
+      "name": "Agents Over Apps",
+      "category": "product-strategy",
+      "guests": ["Bret Taylor"],
+      "quote": "The whole market is going towards agents and outcome-based pricing. Software is going from helping individuals to accomplishing jobs autonomously.",
+      "guestQuoted": "Bret Taylor"
+    },
+    {
+      "id": "outcome-based-pricing",
+      "name": "Outcome-Based Pricing",
+      "category": "product-strategy",
+      "guests": ["Bret Taylor"],
+      "quote": "Agents need to be autonomous and outcomes measurable. We charge per resolution, not per token—aligning our success with customer success.",
+      "guestQuoted": "Bret Taylor"
+    },
+    {
+      "id": "most-impactful-thing",
+      "name": "Most Impactful Thing",
+      "category": "execution",
+      "guests": ["Bret Taylor"],
+      "quote": "Wake up every morning asking: What is the most impactful thing I could do today? Don't conform the job to what you like—conform to what's needed.",
+      "guestQuoted": "Bret Taylor"
+    },
+    {
+      "id": "incorrect-storytelling",
+      "name": "Incorrect Storytelling",
+      "category": "decision-making",
+      "guests": ["Bret Taylor"],
+      "quote": "The danger for founders is incorrect storytelling. If you tell yourself the wrong reason why you lost, you'll fix the wrong problem.",
+      "guestQuoted": "Bret Taylor"
+    },
+    {
+      "id": "systems-thinking",
+      "name": "Systems Thinking",
+      "category": "execution",
+      "guests": ["Bret Taylor"],
+      "quote": "Computer science teaches systems thinking. As AI writes code, operating the code-generating machine will require even more sophisticated systems thinking.",
+      "guestQuoted": "Bret Taylor"
+    },
+    {
+      "id": "flexible-identity",
+      "name": "Flexible Identity",
+      "category": "career-leadership",
+      "guests": ["Bret Taylor"],
+      "quote": "Have a flexible view of your identity. To build something significant, transform into what the company needs you to be at that point.",
+      "guestQuoted": "Bret Taylor"
+    },
+    {
+      "id": "toddler-soccer",
+      "name": "Toddler Soccer",
+      "category": "metrics-analytics",
+      "guests": ["Ami Vora"],
+      "quote": "When everyone chases the same metric, you get toddler soccer—everyone trips over each other. Detangle goals so each team has a different metric that ladders up.",
+      "guestQuoted": "Ami Vora"
+    }
+  ]
+}

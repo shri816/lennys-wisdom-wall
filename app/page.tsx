@@ -1,65 +1,279 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import { useState, useEffect } from 'react';
+import data from './categorized-data.json';
+
+export default function WisdomWall() {
+  const [selectedConcept, setSelectedConcept] = useState<any>(null);
+  const [showGuestSummary, setShowGuestSummary] = useState(false);
+  const [guestSummary, setGuestSummary] = useState<string>('');
+  const [loadingSummary, setLoadingSummary] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    setShowGuestSummary(false);
+    setGuestSummary('');
+  }, [selectedConcept]);
+
+  const handleSummaryClick = async () => {
+    if (showGuestSummary) {
+      setShowGuestSummary(false);
+      return;
+    }
+
+    setShowGuestSummary(true);
+    if (guestSummary) return; // Already loaded
+
+    setLoadingSummary(true);
+    try {
+      const response = await fetch('/api/summarize', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ guestName: selectedConcept.guestQuoted })
+      });
+      const data = await response.json();
+      setGuestSummary(data.summary);
+    } catch (error) {
+      setGuestSummary('Failed to load summary. Please try again.');
+    }
+    setLoadingSummary(false);
+  };
+
+  if (!mounted) {
+    return (
+      <div className="min-h-screen bg-[#FFF8F0] flex items-center justify-center">
+        <div className="text-gray-900 text-xl">Loading Lenny's Wisdom Wall...</div>
+      </div>
+    );
+  }
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+    <div className="min-h-screen bg-[#FFF8F0] relative">
+      {/* Header */}
+      <div className="sticky top-0 bg-white/95 backdrop-blur-sm border-b-2 border-[#FF6B35] z-30 shadow-sm">
+        <div className="max-w-7xl mx-auto px-8 py-6">
+          <div className="flex items-center gap-4 mb-4">
+            {/* Lenny's Profile Picture */}
+            <img
+              src="https://media.licdn.com/dms/image/v2/D5603AQEtN0NPUcDLrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1668720550515?e=2147483647&v=beta&t=oC9mjouEijfAiMcf7JQJfGTMKlXJXzgQkUHOHa5hKFE"
+              alt="Lenny Rachitsky"
+              className="w-12 h-12 rounded-lg"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <div>
+              <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+                Lenny's Podcast - Wisdom Wall
+              </h1>
+            </div>
+          </div>
         </div>
-      </main>
+      </div>
+
+      {/* Main Content */}
+      <div className="max-w-7xl mx-auto px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {data.concepts.map((concept: any) => {
+            const category = data.categories.find(c => c.id === concept.category);
+            return (
+              <button
+                key={concept.id}
+                onClick={() => setSelectedConcept(concept)}
+                className="bg-white hover:shadow-xl border-2 border-gray-200 hover:border-gray-400 rounded-xl p-6 text-left transition-all duration-200 group"
+              >
+                <div className="flex items-start gap-3 mb-3">
+                  <span className="text-2xl">{category?.icon}</span>
+                  <div className="flex-1">
+                    <h3 className="text-gray-900 font-bold text-lg group-hover:text-[#FF6B35] transition-colors">
+                      {concept.name}
+                    </h3>
+                    <p className="text-xs text-gray-500 mt-1">
+                      {category?.name}
+                    </p>
+                  </div>
+                </div>
+                <p className="text-gray-600 text-sm italic line-clamp-2">
+                  "{concept.quote}"
+                </p>
+                <p className="text-gray-500 text-xs mt-2">
+                  {concept.guests.length} guest{concept.guests.length > 1 ? 's' : ''}
+                </p>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Detail Panel */}
+      {selectedConcept && (
+        <>
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40"
+            onClick={() => setSelectedConcept(null)}
+          />
+
+          {/* Panel */}
+          <div className="fixed top-0 right-0 w-full md:w-[600px] h-full bg-white shadow-2xl z-50 overflow-y-auto">
+            {(() => {
+              const category = data.categories.find(c => c.id === selectedConcept.category);
+              return (
+                <>
+                  <div
+                    className="sticky top-0 bg-white border-b-4 px-8 py-6 flex items-start justify-between"
+                    style={{ borderColor: category?.color }}
+                  >
+                    <div className="flex-1 pr-4">
+                      <div className="flex items-center gap-3 mb-2">
+                        <span className="text-4xl">{category?.icon}</span>
+                        <div>
+                          <h2 className="text-3xl font-bold text-gray-900">
+                            {selectedConcept.name}
+                          </h2>
+                          <p className="text-sm" style={{ color: category?.color }}>
+                            {category?.name}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      onClick={() => setSelectedConcept(null)}
+                      className="text-gray-400 hover:text-gray-900 transition-colors text-3xl leading-none flex-shrink-0"
+                    >
+                      ✕
+                    </button>
+                  </div>
+
+                  <div className="px-8 py-8 space-y-8">
+                    {/* Key Quote */}
+                    <div>
+                      <h3
+                        className="font-bold text-sm uppercase tracking-wide mb-4"
+                        style={{ color: category?.color }}
+                      >
+                        💡 Key Insight
+                      </h3>
+                      <div
+                        className="bg-gray-50 border-l-4 p-6 rounded-r-xl"
+                        style={{ borderColor: category?.color }}
+                      >
+                        <p className="text-gray-800 text-lg leading-relaxed mb-4">
+                          "{selectedConcept.quote}"
+                        </p>
+                        <p className="font-semibold text-sm" style={{ color: category?.color }}>
+                          — {selectedConcept.guestQuoted}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Guest Conversation Summary */}
+                    <div>
+                      <h3
+                        className="font-bold text-sm uppercase tracking-wide mb-4"
+                        style={{ color: category?.color }}
+                      >
+                        📝 Full Episode Summary
+                      </h3>
+                      <button
+                        onClick={handleSummaryClick}
+                        className="w-full px-6 py-4 bg-white border-2 border-gray-200 hover:border-[#FF6B35] rounded-xl text-left transition-all group"
+                      >
+                        <div className="flex items-center justify-between">
+                          <div>
+                            <p className="font-semibold text-gray-900 group-hover:text-[#FF6B35] transition-colors">
+                              Summarize all key insights from conversation with {selectedConcept.guestQuoted}
+                            </p>
+                            <p className="text-sm text-gray-500 mt-1">
+                              Click to view full episode summary and all insights
+                            </p>
+                          </div>
+                          <svg
+                            className={`w-5 h-5 text-gray-400 transition-transform ${showGuestSummary ? 'rotate-180' : ''}`}
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </div>
+                      </button>
+                      {showGuestSummary && (
+                        <div className="mt-4 p-6 bg-gray-50 rounded-xl border-2 border-gray-200">
+                          {loadingSummary ? (
+                            <div className="flex items-center justify-center py-8">
+                              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#FF6B35]"></div>
+                              <p className="ml-3 text-gray-600">Loading summary...</p>
+                            </div>
+                          ) : (
+                            <div className="text-gray-700 leading-relaxed whitespace-pre-line text-sm">
+                              {guestSummary}
+                            </div>
+                          )}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Guests */}
+                    <div>
+                      <h3
+                        className="font-bold text-sm uppercase tracking-wide mb-4"
+                        style={{ color: category?.color }}
+                      >
+                        🎙️ Featured Guests
+                      </h3>
+                      <div className="flex flex-wrap gap-2">
+                        {selectedConcept.guests.map((guest: string) => (
+                          <span
+                            key={guest}
+                            className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:text-white transition-colors cursor-default"
+                            style={{
+                              ['&:hover' as any]: { backgroundColor: category?.color }
+                            }}
+                          >
+                            {guest}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Related Concepts */}
+                    <div>
+                      <h3
+                        className="font-bold text-sm uppercase tracking-wide mb-4"
+                        style={{ color: category?.color }}
+                      >
+                        🔗 Explore Related
+                      </h3>
+                      <div className="grid grid-cols-2 gap-3">
+                        {data.concepts
+                          .filter(c => c.category === selectedConcept.category && c.id !== selectedConcept.id)
+                          .slice(0, 4)
+                          .map(concept => (
+                            <button
+                              key={concept.id}
+                              onClick={() => setSelectedConcept(concept)}
+                              className="text-left px-4 py-3 bg-gray-50 hover:bg-gray-100 border-2 border-gray-200 rounded-lg text-sm font-medium text-gray-700 transition-all"
+                              style={{
+                                ['&:hover' as any]: {
+                                  borderColor: category?.color,
+                                  color: category?.color
+                                }
+                              }}
+                            >
+                              {concept.name}
+                            </button>
+                          ))}
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+            })()}
+          </div>
+        </>
+      )}
     </div>
   );
 }
