@@ -2,14 +2,20 @@
 
 import { useState, useEffect } from 'react';
 import data from './categorized-data.json';
+import guestSummaries from './guest-summaries.json';
 
 export default function WisdomWall() {
   const [selectedConcept, setSelectedConcept] = useState<any>(null);
+  const [showGuestSummary, setShowGuestSummary] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  useEffect(() => {
+    setShowGuestSummary(false);
+  }, [selectedConcept]);
 
   if (!mounted) {
     return (
@@ -134,6 +140,46 @@ export default function WisdomWall() {
                           — {selectedConcept.guestQuoted}
                         </p>
                       </div>
+                    </div>
+
+                    {/* Guest Conversation Summary */}
+                    <div>
+                      <h3
+                        className="font-bold text-sm uppercase tracking-wide mb-4"
+                        style={{ color: category?.color }}
+                      >
+                        📝 Full Episode Summary
+                      </h3>
+                      <button
+                        onClick={() => setShowGuestSummary(!showGuestSummary)}
+                        className="w-full px-6 py-4 bg-white border-2 border-gray-200 hover:border-[#FF6B35] rounded-xl text-left transition-all group"
+                      >
+                        <div className="flex items-center justify-between">
+                          <div>
+                            <p className="font-semibold text-gray-900 group-hover:text-[#FF6B35] transition-colors">
+                              View key insights from conversation with {selectedConcept.guestQuoted}
+                            </p>
+                            <p className="text-sm text-gray-500 mt-1">
+                              Click to view Steve Jobs-style analysis of the full episode
+                            </p>
+                          </div>
+                          <svg
+                            className={`w-5 h-5 text-gray-400 transition-transform ${showGuestSummary ? 'rotate-180' : ''}`}
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </div>
+                      </button>
+                      {showGuestSummary && (
+                        <div className="mt-4 p-6 bg-gray-50 rounded-xl border-2 border-gray-200">
+                          <div className="text-gray-700 leading-relaxed whitespace-pre-line text-sm">
+                            {(guestSummaries as any)[selectedConcept.guestQuoted] || 'Summary not available for this guest.'}
+                          </div>
+                        </div>
+                      )}
                     </div>
 
                     {/* Guests */}
