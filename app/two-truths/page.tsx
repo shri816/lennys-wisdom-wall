@@ -20,12 +20,6 @@ export default function TwoTruths() {
     setCurrentIndex((prev) => (prev + 1) % filteredContradictions.length);
   };
 
-  const randomContradiction = () => {
-    setShowResolution(false);
-    const randomIndex = Math.floor(Math.random() * filteredContradictions.length);
-    setCurrentIndex(randomIndex);
-  };
-
   if (!current) {
     return <div className="min-h-screen bg-[#FFF8F0] flex items-center justify-center">
       <div className="text-gray-900">No contradictions found for this category.</div>
@@ -46,14 +40,14 @@ export default function TwoTruths() {
               />
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
-                  Two Truths
+                  Two Truths from Lenny's Podcast
                 </h1>
                 <p className="text-xs md:text-sm text-gray-600">Product wisdom isn't black and white</p>
               </div>
             </div>
             <Link
               href="/"
-              className="px-3 md:px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#FF6B35] transition-colors"
+              className="px-4 py-2 bg-[#FF6B35] text-white rounded-lg font-semibold hover:bg-[#E55A2B] transition-all shadow-sm hover:shadow-md"
             >
               ← Wisdom Wall
             </Link>
@@ -211,13 +205,7 @@ export default function TwoTruths() {
         </div>
 
         {/* Navigation */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            onClick={randomContradiction}
-            className="px-8 py-4 bg-white text-gray-900 border-2 border-gray-300 rounded-xl font-semibold hover:border-[#FF6B35] hover:text-[#FF6B35] transition-all shadow-sm"
-          >
-            🎲 Random
-          </button>
+        <div className="flex justify-center">
           <button
             onClick={nextContradiction}
             className="px-8 py-4 bg-[#FF6B35] text-white rounded-xl font-semibold hover:bg-[#E55A2B] transition-all shadow-md hover:shadow-lg"
