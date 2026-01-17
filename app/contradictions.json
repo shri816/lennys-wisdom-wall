@@ -1,0 +1,1141 @@
+{
+  "categories": [
+    {
+      "id": "product-strategy",
+      "name": "Product Strategy",
+      "color": "#FF6B35"
+    },
+    {
+      "id": "growth",
+      "name": "Growth & Scale",
+      "color": "#4ECDC4"
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership",
+      "color": "#95E1D3"
+    },
+    {
+      "id": "decision-making",
+      "name": "Decision Making",
+      "color": "#AA96DA"
+    },
+    {
+      "id": "career",
+      "name": "Career & Development",
+      "color": "#FCBAD3"
+    },
+    {
+      "id": "execution",
+      "name": "Execution",
+      "color": "#FDCB6E"
+    },
+    {
+      "id": "culture",
+      "name": "Culture",
+      "color": "#6C5CE7"
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "growth-timing-1",
+      "category": "Growth & Scale",
+      "categoryId": "growth",
+      "categoryColor": "#4ECDC4",
+      "topic": "When to Hire a Growth Team",
+      "insight1": {
+        "quote": "Don't hire a growth team too soon. Founders should lead growth until they have solid product-market fit. Growth teams can't create PMF\u2014they can only amplify it.",
+        "guest": "Elena Verna",
+        "context": "B2B SaaS with direct monetization"
+      },
+      "insight2": {
+        "quote": "New distribution platforms emerge, but this window is shrinking. Startups must build growth capabilities early to gain competitive advantage.",
+        "guest": "Brian Balfour",
+        "context": "Consumer products with network effects"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Elena's advice applies to B2B SaaS where strong retention signals matter first. Brian's applies to network effect businesses where scale creates value. The key question: Does your product get better with more users?",
+        "keyFactor": "Product type: direct monetization vs. network effects"
+      }
+    },
+    {
+      "id": "ceo-product-1",
+      "category": "Leadership",
+      "categoryId": "leadership",
+      "categoryColor": "#95E1D3",
+      "topic": "CEO as Product Leader",
+      "insight1": {
+        "quote": "The CEO should be the chief product officer. Combining product and marketing leads to a more cohesive product.",
+        "guest": "Brian Chesky",
+        "context": "Founder with exceptional product taste"
+      },
+      "insight2": {
+        "quote": "Great CEOs hire world-class product leaders and get out of the way. Build your career by joining mid-stage companies with strong leaders.",
+        "guest": "Gokul Rajaram",
+        "context": "Scaling past 300+ people"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Chesky's model works when founder has exceptional product taste. Gokul's applies when scaling needs specialized executives. The deciding factor is founder strength and company scale.",
+        "keyFactor": "Founder product capability and scale"
+      }
+    },
+    {
+      "id": "execution-strategy-1",
+      "category": "Execution",
+      "categoryId": "execution",
+      "categoryColor": "#FDCB6E",
+      "topic": "Strategy vs. Execution",
+      "insight1": {
+        "quote": "Execution problems are often strategy problems in disguise. Teams think they have execution issues when they lack clear strategy.",
+        "guest": "Shreyas Doshi",
+        "context": "Scaling teams with misalignment"
+      },
+      "insight2": {
+        "quote": "Just make something people love. There's no substitute for creating value for customers. Strategy is overrated.",
+        "guest": "Stewart Butterfield",
+        "context": "0-1 product development"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Shreyas is right for scaling teams where alignment matters. Stewart's advice applies to early product development where craft beats frameworks. Early = build. Growth = align.",
+        "keyFactor": "Stage: 0-1 vs. scaling"
+      }
+    },
+    {
+      "id": "speed-quality-1",
+      "category": "Execution",
+      "categoryId": "execution",
+      "categoryColor": "#FDCB6E",
+      "topic": "Speed vs. Quality",
+      "insight1": {
+        "quote": "Startups win on latency\u2014how quickly you go from idea to learning\u2014not speed. Optimize for fast learning cycles.",
+        "guest": "Ravi Mehta",
+        "context": "Finding PMF as a startup"
+      },
+      "insight2": {
+        "quote": "You must see limitless opportunities to improve. Focus on craft and taste\u2014this creates competitive advantage most people don't invest in.",
+        "guest": "Stewart Butterfield",
+        "context": "Building differentiated products"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Ravi's latency focus is critical for startups finding PMF. Stewart's craft matters for differentiated products. Early = learn fast. Mature = build quality.",
+        "keyFactor": "PMF stage"
+      }
+    },
+    {
+      "id": "data-intuition-1",
+      "category": "Decision Making",
+      "categoryId": "decision-making",
+      "categoryColor": "#AA96DA",
+      "topic": "Data vs. Intuition",
+      "insight1": {
+        "quote": "Make trade-offs explicitly and communicate why. Under-communication is a major issue\u2014share key information with executives.",
+        "guest": "Casey Winters",
+        "context": "Strategic decisions at scale"
+      },
+      "insight2": {
+        "quote": "There's no such thing as a long feedback loop. The best decisions often can't be measured directly\u2014use correlated outcomes.",
+        "guest": "Annie Duke",
+        "context": "Deciding with incomplete data"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Casey's works when you have data infrastructure. Annie's applies when you can't wait for perfect data. Do you have the data, or do you need to decide anyway?",
+        "keyFactor": "Data availability and urgency"
+      }
+    },
+    {
+      "id": "micromanagement-1",
+      "category": "Leadership",
+      "categoryId": "leadership",
+      "categoryColor": "#95E1D3",
+      "topic": "Details vs. Autonomy",
+      "insight1": {
+        "quote": "Being in the details is crucial\u2014it's different from micromanaging. Clarity is key: people want to know the direction.",
+        "guest": "Brian Chesky",
+        "context": "Maintaining vision at scale"
+      },
+      "insight2": {
+        "quote": "Give your team autonomy. Selective micromanagement should be tactical and temporary\u2014only when direction is unclear.",
+        "guest": "Ravi Mehta",
+        "context": "Building scalable org structures"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Chesky's works when differentiation depends on founder taste. Mehta's scales with strong team leads. Founders own vision, managers own execution.",
+        "keyFactor": "Source of advantage: taste vs. team capability"
+      }
+    },
+    {
+      "id": "positioning-timing-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Positioning Timing",
+      "insight1": {
+        "quote": "Positioning defines how you're the best in the world. Weak positioning hurts across the entire pipeline\u2014marketing, sales, customer success.",
+        "guest": "April Dunford",
+        "context": "Competitive B2B markets"
+      },
+      "insight2": {
+        "quote": "People hire products to make progress. Understanding the struggling moment that drives behavior matters more than positioning.",
+        "guest": "Bob Moesta",
+        "context": "Discovering PMF with JTBD"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "April's positioning is critical in competitive markets. Bob's JTBD helps when discovering PMF. First understand the job, then position against alternatives.",
+        "keyFactor": "Stage: discovery vs. scale"
+      }
+    },
+    {
+      "id": "founder-delegation-1",
+      "category": "Leadership",
+      "categoryId": "leadership",
+      "categoryColor": "#95E1D3",
+      "topic": "Control vs. Delegation",
+      "insight1": {
+        "quote": "A single company-wide roadmap creates unity. Managing by influence works in functional models.",
+        "guest": "Brian Chesky",
+        "context": "Single brand focus"
+      },
+      "insight2": {
+        "quote": "The difference between a business and a job is scale. Get to a scale where you can delegate what you hate\u2014lazy leadership.",
+        "guest": "Andrew Wilkinson",
+        "context": "Portfolio businesses"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Chesky's centralized model works for brand-driven businesses. Wilkinson's delegation works for portfolios. One product? Stay involved. Multiple? Delegate.",
+        "keyFactor": "Business model: single vs. portfolio"
+      }
+    },
+    {
+      "id": "friction-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Product Friction",
+      "insight1": {
+        "quote": "Friction can be good if it helps comprehension. The goal is simplicity, not just reducing friction.",
+        "guest": "Stewart Butterfield",
+        "context": "Complex products needing education"
+      },
+      "insight2": {
+        "quote": "Onboarding is critical\u2014100% of users touch it. Reduce friction in the buying process to deliver on the promise.",
+        "guest": "Adam Fishman",
+        "context": "Growth optimization"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Stewart's good friction applies to products with depth. Adam's reduction applies to acquisition. In onboarding: remove friction. In core product: add understanding.",
+        "keyFactor": "Context: funnel vs. core experience"
+      }
+    },
+    {
+      "id": "company-stage-1",
+      "category": "Career & Development",
+      "categoryId": "career",
+      "categoryColor": "#FCBAD3",
+      "topic": "Which Stage to Join",
+      "insight1": {
+        "quote": "Join mid-stage (300-500 people) for mentorship and skills. Avoid very early-stage unless you know founders well.",
+        "guest": "Gokul Rajaram",
+        "context": "Building sustainable career"
+      },
+      "insight2": {
+        "quote": "Plug into early-stage networks immediately. Connect with founders, investors, and builders passionate about early stage.",
+        "guest": "Ravi Mehta",
+        "context": "Transitioning to startups"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Gokul's is for building fundamentals. Ravi's is for those ready to build something new. Mid-stage for learning, early-stage for building\u2014after you've learned.",
+        "keyFactor": "Your stage: learning vs. building"
+      }
+    },
+    {
+      "id": "burnout-1",
+      "category": "Culture",
+      "categoryId": "culture",
+      "categoryColor": "#6C5CE7",
+      "topic": "Achievement vs. Well-Being",
+      "insight1": {
+        "quote": "50-60% of tech employees experience psychological distress after 5-7 years. Prioritize emotional and psychological health\u2014neglecting these leads to burnout.",
+        "guest": "Andy Johns",
+        "context": "Preventing burnout"
+      },
+      "insight2": {
+        "quote": "What matters most is that your children know you love them. Mental time travel helps\u2014consider how you'll think about decisions in the future.",
+        "guest": "Annie Duke",
+        "context": "What truly matters"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Both are always true, but critical at different points. Andy's matters before you burn out. Annie's after you've achieved success. Build sustainable habits early.",
+        "keyFactor": "Prevention: build habits before you break"
+      }
+    },
+    {
+      "id": "taste-data-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Taste vs. Data",
+      "insight1": {
+        "quote": "Developing good taste and craft is essential. This creates competitive advantage that most people don't invest in.",
+        "guest": "Stewart Butterfield",
+        "context": "Differentiated products"
+      },
+      "insight2": {
+        "quote": "Focus on non-scalable hacks that inform larger strategies. Use data to unlock scalable growth.",
+        "guest": "Casey Winters",
+        "context": "Scaling with experimentation"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Taste drives differentiation. Data drives scale. You need taste to know what to build, data to know how to scale it. 0-1 = taste. 1-100 = data.",
+        "keyFactor": "Goal: differentiation vs. scale"
+      }
+    },
+    {
+      "id": "communication-1",
+      "category": "Leadership",
+      "categoryId": "leadership",
+      "categoryColor": "#95E1D3",
+      "topic": "Communication Approach",
+      "insight1": {
+        "quote": "Preparation is key. Be able to answer any question confidently. Start with basics when communicating with executives.",
+        "guest": "Casey Winters",
+        "context": "Working with executives"
+      },
+      "insight2": {
+        "quote": "Prioritize the best outcome over being right. Practice curiosity\u2014sublimate your ego. Pause and reframe reactions as opportunities to learn.",
+        "guest": "Ami Vora",
+        "context": "Collaborative decisions"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Casey's preparation works for formal settings building credibility up. Ami's curiosity works in peer collaboration. Know your audience: executives need confidence, peers need collaboration.",
+        "keyFactor": "Audience: upward vs. peer"
+      }
+    },
+    {
+      "id": "niche-broad-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Market Size",
+      "insight1": {
+        "quote": "Fish where the fish are\u2014find a niche with large potential and little competition. Avoid what everybody else wants\u2014high competition, low margins.",
+        "guest": "Andrew Wilkinson",
+        "context": "Underserved markets"
+      },
+      "insight2": {
+        "quote": "Think really big. Prioritize opportunities that scale to $100M+ revenue. Don't get bogged down in smaller opportunities.",
+        "guest": "Shreyas Doshi",
+        "context": "Google-scale thinking"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Andrew's niche focus works for bootstrapped businesses\u2014win a small pond first. Shreyas's big thinking applies with resources for massive markets. Bootstrapped: start niche. Venture: start big.",
+        "keyFactor": "Resources: bootstrapped vs. venture-backed"
+      }
+    },
+    {
+      "id": "product-eng-1",
+      "category": "Career & Development",
+      "categoryId": "career",
+      "categoryColor": "#FCBAD3",
+      "topic": "Technical Depth",
+      "insight1": {
+        "quote": "Engineers can make great PMs. Technical background allows deeper understanding of the product and its technical aspects.",
+        "guest": "Shreyas Doshi",
+        "context": "Technical products"
+      },
+      "insight2": {
+        "quote": "Great careers are built by knowing people, doing great work, and being wanted on teams\u2014not linear promotions.",
+        "guest": "Gokul Rajaram",
+        "context": "Well-rounded career"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Technical depth matters for infrastructure, platform, or API products. Breadth matters for consumer or cross-functional products. Choose based on what energizes you.",
+        "keyFactor": "Product domain: technical vs. cross-functional"
+      }
+    },
+    {
+      "id": "retention-acquisition-1",
+      "category": "Growth & Scale",
+      "categoryId": "growth",
+      "categoryColor": "#4ECDC4",
+      "topic": "Retention vs. Acquisition",
+      "insight1": {
+        "quote": "Retention is the foundation. You can't grow if you're leaking users. Fix retention before optimizing acquisition.",
+        "guest": "Elena Verna",
+        "context": "SaaS products with subscription models"
+      },
+      "insight2": {
+        "quote": "Distribution and growth unlock discovery. Sometimes you need scale to find what sticks and what users truly value.",
+        "guest": "Brian Balfour",
+        "context": "Network effect products"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "For subscription products, retention must work first or you're filling a leaky bucket. For network effects, growth can reveal retention drivers. The key: Can you measure retention without scale?",
+        "keyFactor": "Business model and feedback loop speed"
+      }
+    },
+    {
+      "id": "innovation-iteration-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Innovation vs. Iteration",
+      "insight1": {
+        "quote": "Build entirely new experiences. Ask 'why should I use this?' Create breakthrough moments like Google Maps' satellite imagery.",
+        "guest": "Bret Taylor",
+        "context": "Creating new product categories"
+      },
+      "insight2": {
+        "quote": "See limitless opportunities to improve existing experiences. Craft and iteration create moats most competitors won't invest in.",
+        "guest": "Stewart Butterfield",
+        "context": "Refining and perfecting products"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Bret's innovation works when entering new markets or creating categories. Stewart's iteration works when defending position in competitive markets. New market = innovate. Established market = iterate better than anyone else.",
+        "keyFactor": "Market maturity"
+      }
+    },
+    {
+      "id": "qualitative-quantitative-1",
+      "category": "Decision Making",
+      "categoryId": "decision-making",
+      "categoryColor": "#AA96DA",
+      "topic": "Research Methods",
+      "insight1": {
+        "quote": "Understand the struggling moment that creates demand. Deep customer interviews reveal context and causation that data can't show.",
+        "guest": "Bob Moesta",
+        "context": "Discovering unmet needs"
+      },
+      "insight2": {
+        "quote": "Data shows what's actually happening, not what people say. Measure behavior, not intentions. Quantitative insights scale.",
+        "guest": "Casey Winters",
+        "context": "Optimizing at scale"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Bob's qualitative approach finds WHY and discovers new opportunities. Casey's quantitative validates and optimizes at scale. Discovery = qual. Optimization = quant. Use both sequentially.",
+        "keyFactor": "Problem type: discovery vs. optimization"
+      }
+    },
+    {
+      "id": "long-short-term-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Time Horizon",
+      "insight1": {
+        "quote": "Think 10 years out. Build accumulating advantages like brand and education that compound over time, not just performance marketing.",
+        "guest": "Brian Chesky",
+        "context": "Building lasting competitive advantages"
+      },
+      "insight2": {
+        "quote": "Optimize for learning latency. Get from idea to validated learning as fast as possible. Long feedback loops kill startups.",
+        "guest": "Ravi Mehta",
+        "context": "Early-stage iteration"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Chesky's long-term thinking works when you have PMF and resources to invest in moats. Ravi's short cycles work when finding PMF. Before PMF = optimize for learning. After PMF = optimize for compounding.",
+        "keyFactor": "PMF status"
+      }
+    },
+    {
+      "id": "focus-diversification-1",
+      "category": "Execution",
+      "categoryId": "execution",
+      "categoryColor": "#FDCB6E",
+      "topic": "Focus vs. Diversification",
+      "insight1": {
+        "quote": "A single company-wide roadmap creates alignment and focus. Say no to opportunities that don't serve the core vision.",
+        "guest": "Brian Chesky",
+        "context": "Single product companies"
+      },
+      "insight2": {
+        "quote": "Start small, build multiple businesses. Delegate operations and focus portfolio on what you love. Diversification creates resilience.",
+        "guest": "Andrew Wilkinson",
+        "context": "Portfolio approach"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Chesky's focus works for venture-backed companies going after winner-take-all markets. Wilkinson's diversification works for bootstrapped businesses managing risk. VC-backed = focus. Bootstrapped = can diversify.",
+        "keyFactor": "Funding model and market dynamics"
+      }
+    },
+    {
+      "id": "customer-vision-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Customer Requests vs. Vision",
+      "insight1": {
+        "quote": "Listen deeply to customers. Understand the job they're hiring your product to do. Customer context drives product decisions.",
+        "guest": "Bob Moesta",
+        "context": "Understanding customer needs"
+      },
+      "insight2": {
+        "quote": "Develop taste and vision. Customers don't know what's possible. Your craft and judgment create differentiation they can't articulate.",
+        "guest": "Stewart Butterfield",
+        "context": "Visionary product development"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Bob's listening discovers problems worth solving. Stewart's vision imagines solutions customers can't. Listen for the problem, use vision for the solution. Customers define WHAT hurts. You define HOW to fix it.",
+        "keyFactor": "Phase: problem discovery vs. solution design"
+      }
+    },
+    {
+      "id": "experience-potential-1",
+      "category": "Leadership",
+      "categoryId": "leadership",
+      "categoryColor": "#95E1D3",
+      "topic": "Hiring Criteria",
+      "insight1": {
+        "quote": "Hire people with deep skills and experience. Join mid-stage companies to learn from strong operators who've done it before.",
+        "guest": "Gokul Rajaram",
+        "context": "Scaling with proven talent"
+      },
+      "insight2": {
+        "quote": "When you combine high energy, sound judgment, low ego, and small teams, you achieve magic. Cultural fit and potential matter more than resume.",
+        "guest": "Shreyas Doshi",
+        "context": "Building exceptional teams"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Gokul's experience focus works for scaling known playbooks\u2014you need people who've seen the movie. Shreyas's potential focus works for new problems requiring invention. Known problem = experience. Novel problem = potential.",
+        "keyFactor": "Problem novelty"
+      }
+    },
+    {
+      "id": "platform-product-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Platform vs. Product",
+      "insight1": {
+        "quote": "Build a platform that others can build on. Platforms create defensibility and ecosystem lock-in that products can't match.",
+        "guest": "Bret Taylor",
+        "context": "Creating long-term moats"
+      },
+      "insight2": {
+        "quote": "Solve one problem exceptionally well. Focus creates better solutions than platforms that try to be everything to everyone.",
+        "guest": "April Dunford",
+        "context": "Clear positioning and differentiation"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Platforms work when you have distribution and can enable an ecosystem. Products work when solving a specific job better than anyone. Start as a product to prove value, become a platform to scale impact.",
+        "keyFactor": "Stage and market position"
+      }
+    },
+    {
+      "id": "premortem-postmortem-1",
+      "category": "Decision Making",
+      "categoryId": "decision-making",
+      "categoryColor": "#AA96DA",
+      "topic": "Planning Approach",
+      "insight1": {
+        "quote": "Use pre-mortems to identify what could go wrong before starting. Set kill criteria and commit to acting on signals received.",
+        "guest": "Shreyas Doshi",
+        "context": "De-risking big bets"
+      },
+      "insight2": {
+        "quote": "Just start and learn. Over-planning creates false confidence. The map is not the territory\u2014you learn by doing.",
+        "guest": "Stewart Butterfield",
+        "context": "Uncertain and novel situations"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Pre-mortems work for big, expensive decisions where failure is costly. Quick iteration works when learning is cheap. High cost of failure = plan. Low cost = start. Match planning depth to downside risk.",
+        "keyFactor": "Cost of failure"
+      }
+    },
+    {
+      "id": "selfserve-sales-1",
+      "category": "Growth & Scale",
+      "categoryId": "growth",
+      "categoryColor": "#4ECDC4",
+      "topic": "Go-to-Market Motion",
+      "insight1": {
+        "quote": "Self-serve and product-led growth scale efficiently. Remove friction in onboarding\u2014let the product sell itself.",
+        "guest": "Adam Fishman",
+        "context": "PLG and self-serve models"
+      },
+      "insight2": {
+        "quote": "Complex products need education and relationship. Sales-led motions work when selling to enterprises or when solution needs customization.",
+        "guest": "April Dunford",
+        "context": "Enterprise B2B sales"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Self-serve works for simple, low-touch products with broad appeal. Sales works for complex, high-touch solutions with specific buyers. Product complexity and deal size determine the motion. Simple + cheap = self-serve. Complex + expensive = sales.",
+        "keyFactor": "Product complexity and ACV"
+      }
+    },
+    {
+      "id": "async-sync-1",
+      "category": "Culture",
+      "categoryId": "culture",
+      "categoryColor": "#6C5CE7",
+      "topic": "Communication Mode",
+      "insight1": {
+        "quote": "Meetings should only be for discussion, not discovery or decision-making. Make thoughts explicit in writing first\u2014it improves quality.",
+        "guest": "Annie Duke",
+        "context": "Thoughtful decision-making"
+      },
+      "insight2": {
+        "quote": "Real-time collaboration creates energy and alignment. Face-to-face discussion builds trust and resolves misalignment faster than async.",
+        "guest": "Brian Chesky",
+        "context": "Building high-trust teams"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Async works for information sharing and individual deep work. Sync works for alignment, debate, and trust-building. Use async for facts, sync for feelings. Distribute information async, make decisions sync.",
+        "keyFactor": "Task type: information vs. alignment"
+      }
+    },
+    {
+      "id": "small-large-team-1",
+      "category": "Execution",
+      "categoryId": "execution",
+      "categoryColor": "#FDCB6E",
+      "topic": "Team Size",
+      "insight1": {
+        "quote": "Small, senior teams with high energy and collaboration achieve magic. Having a smaller, more senior product team leads to better decision-making.",
+        "guest": "Shreyas Doshi",
+        "context": "High-leverage work"
+      },
+      "insight2": {
+        "quote": "Scale requires more people. You need specialized roles and larger teams to handle complexity and volume at growth stage.",
+        "guest": "Gokul Rajaram",
+        "context": "Scaling operations"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Small teams work for focused, high-judgment problems where communication overhead kills productivity. Large teams work for scaling execution of known playbooks. Keep teams as small as possible, as large as necessary.",
+        "keyFactor": "Problem type and scale needs"
+      }
+    },
+    {
+      "id": "metrics-outcomes-1",
+      "category": "Decision Making",
+      "categoryId": "decision-making",
+      "categoryColor": "#AA96DA",
+      "topic": "Measurement Philosophy",
+      "insight1": {
+        "quote": "Measure everything. What gets measured gets improved. Use data to drive accountability and identify what's working.",
+        "guest": "Casey Winters",
+        "context": "Data-driven organizations"
+      },
+      "insight2": {
+        "quote": "The best decisions often can't be measured directly. Over-indexing on metrics creates gaming and misses important qualitative signals.",
+        "guest": "Annie Duke",
+        "context": "Long-term strategic decisions"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Casey's metrics work for optimizing known processes and creating accountability. Annie's caution applies to novel situations and long-term bets. Optimize the knowable, use judgment for the unknowable. Short-term = measure. Long-term = judge.",
+        "keyFactor": "Time horizon and problem novelty"
+      }
+    },
+    {
+      "id": "opinionated-flexible-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Product Philosophy",
+      "insight1": {
+        "quote": "Build an opinionated product with a clear point of view. Trying to please everyone creates mediocrity. Develop strong taste.",
+        "guest": "Stewart Butterfield",
+        "context": "Differentiated products"
+      },
+      "insight2": {
+        "quote": "Make your product flexible to fit different contexts. Enterprise customers need customization and control to fit their workflows.",
+        "guest": "April Dunford",
+        "context": "Enterprise B2B"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Opinionated works for consumer or SMB where you control the experience. Flexible works for enterprise where customers have unique needs. Consumer = opinionated. Enterprise = flexible (within limits).",
+        "keyFactor": "Customer segment and use case diversity"
+      }
+    },
+    {
+      "id": "launch-big-small-1",
+      "category": "Execution",
+      "categoryId": "execution",
+      "categoryColor": "#FDCB6E",
+      "topic": "Launch Strategy",
+      "insight1": {
+        "quote": "Create viral moments. Big launches generate attention and can create breakthrough awareness that changes trajectory.",
+        "guest": "Bret Taylor",
+        "context": "Breaking through noise"
+      },
+      "insight2": {
+        "quote": "Launch small and iterate. Optimize for learning latency\u2014get from idea to validated learning as fast as possible with minimal risk.",
+        "guest": "Ravi Mehta",
+        "context": "Reducing risk and learning fast"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Big launches work when you have conviction, resources, and need attention. Small launches work when you need to learn or have uncertainty. High confidence + resources = launch big. Learning mode = launch small.",
+        "keyFactor": "Confidence level and resources"
+      }
+    },
+    {
+      "id": "process-chaos-1",
+      "category": "Culture",
+      "categoryId": "culture",
+      "categoryColor": "#6C5CE7",
+      "topic": "Organizational Structure",
+      "insight1": {
+        "quote": "Create clear processes and frameworks. Explicit communication and preparation prevent misalignment and improve execution.",
+        "guest": "Casey Winters",
+        "context": "Scaling organizations"
+      },
+      "insight2": {
+        "quote": "Too much process kills innovation. Give smart people autonomy and get out of their way. Trust and energy matter more than frameworks.",
+        "guest": "Andrew Wilkinson",
+        "context": "Creative and entrepreneurial work"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Process works for repeated, scalable activities where consistency matters. Autonomy works for novel, creative work where process constrains. Operations = process. Innovation = autonomy. Know which you're doing.",
+        "keyFactor": "Work type: repetitive vs. novel"
+      }
+    },
+    {
+      "id": "education-marketing-1",
+      "category": "Growth & Scale",
+      "categoryId": "growth",
+      "categoryColor": "#4ECDC4",
+      "topic": "Market Strategy",
+      "insight1": {
+        "quote": "Invest in education and brand marketing. These create accumulating advantages that compound over time, unlike performance marketing.",
+        "guest": "Brian Chesky",
+        "context": "Building long-term brand value"
+      },
+      "insight2": {
+        "quote": "Performance marketing delivers measurable, immediate results. Use data to find scalable channels and optimize ruthlessly for efficiency.",
+        "guest": "Casey Winters",
+        "context": "Efficient customer acquisition"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Brand works when you have time and resources to build moats. Performance works when you need predictable, measurable growth. Early stage = performance to prove efficiency. Later stage = brand to build moats. Do both eventually.",
+        "keyFactor": "Stage and competitive intensity"
+      }
+    },
+    {
+      "id": "transparency-privacy-1",
+      "category": "Culture",
+      "categoryId": "culture",
+      "categoryColor": "#6C5CE7",
+      "topic": "Information Sharing",
+      "insight1": {
+        "quote": "Radical transparency prevents under-communication. Share context widely so people can make good decisions independently.",
+        "guest": "Casey Winters",
+        "context": "Distributed decision-making"
+      },
+      "insight2": {
+        "quote": "Not everything should be shared. Some decisions need quiet space to develop. Premature transparency creates noise and politicization.",
+        "guest": "Brian Chesky",
+        "context": "Strategic decisions"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Transparency works for execution and tactical decisions\u2014empower people with context. Privacy works for early strategy and sensitive topics. Share tactics widely, protect strategy while forming. Default to transparency, selectively withhold.",
+        "keyFactor": "Decision maturity and sensitivity"
+      }
+    },
+    {
+      "id": "build-buy-1",
+      "category": "Execution",
+      "categoryId": "execution",
+      "categoryColor": "#FDCB6E",
+      "topic": "Build vs. Buy",
+      "insight1": {
+        "quote": "Build in-house when it's core to your differentiation. Deep technical understanding and control create competitive advantage.",
+        "guest": "Shreyas Doshi",
+        "context": "Core competencies"
+      },
+      "insight2": {
+        "quote": "Buy or delegate anything not core. Focus on what you love and what creates unique value. Lazy leadership is smart leadership.",
+        "guest": "Andrew Wilkinson",
+        "context": "Resource efficiency"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Build what differentiates you, buy the rest. If customers pay specifically for it, build. If it's table stakes, buy. Core to value prop = build. Infrastructure = buy.",
+        "keyFactor": "Differentiation value"
+      }
+    },
+    {
+      "id": "roadmap-opportunistic-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Planning Approach",
+      "insight1": {
+        "quote": "A single company-wide roadmap creates clarity and alignment. People want to know the direction and move quickly together.",
+        "guest": "Brian Chesky",
+        "context": "Large-scale coordination"
+      },
+      "insight2": {
+        "quote": "Be opportunistic. Pivot when signals tell you to. Rigid roadmaps miss opportunities and ignore market feedback.",
+        "guest": "Stewart Butterfield",
+        "context": "Early-stage flexibility"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Roadmaps work when you have conviction and need alignment across teams. Opportunism works when learning and adapting to signals. Finding PMF = opportunistic. Scaling PMF = roadmap. Match rigor to certainty.",
+        "keyFactor": "Certainty and scale"
+      }
+    },
+    {
+      "id": "technical-debt-1",
+      "category": "Execution",
+      "categoryId": "execution",
+      "categoryColor": "#FDCB6E",
+      "topic": "Technical Investment",
+      "insight1": {
+        "quote": "Move fast and optimize for learning. Technical debt is acceptable early\u2014you need speed to find PMF before running out of money.",
+        "guest": "Ravi Mehta",
+        "context": "Pre-PMF startups"
+      },
+      "insight2": {
+        "quote": "Invest in quality and craft. Technical excellence creates products that scale and delight. Shortcuts compound into problems.",
+        "guest": "Stewart Butterfield",
+        "context": "Building for scale"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Ravi's speed works when survival depends on finding PMF fast. Stewart's craft works after PMF when scaling and maintaining quality matter. Pre-PMF = move fast. Post-PMF = build right.",
+        "keyFactor": "PMF status and runway"
+      }
+    },
+    {
+      "id": "remote-office-1",
+      "category": "Culture",
+      "categoryId": "culture",
+      "categoryColor": "#6C5CE7",
+      "topic": "Work Location",
+      "insight1": {
+        "quote": "In-person builds trust, culture, and enables real-time collaboration. Face-to-face interaction creates stronger teams faster.",
+        "guest": "Brian Chesky",
+        "context": "Building company culture"
+      },
+      "insight2": {
+        "quote": "Remote work enables access to global talent and gives people autonomy over their environment. Flexibility attracts better people.",
+        "guest": "Andrew Wilkinson",
+        "context": "Talent acquisition and retention"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "In-person works when building culture, trust, or doing creative collaboration. Remote works for execution, deep work, and accessing talent. Culture formation = in-person. Execution = remote works. Hybrid often optimal.",
+        "keyFactor": "Work type and company stage"
+      }
+    },
+    {
+      "id": "conviction-testing-1",
+      "category": "Decision Making",
+      "categoryId": "decision-making",
+      "categoryColor": "#AA96DA",
+      "topic": "Decision Approach",
+      "insight1": {
+        "quote": "Startups need conviction-oriented decisions. Can't wait for statistical significance\u2014make informed bets and move fast.",
+        "guest": "Ravi Mehta",
+        "context": "Fast-moving startups"
+      },
+      "insight2": {
+        "quote": "Test rigorously. Use data and experimentation to validate hypotheses. Overconfidence without testing leads to expensive mistakes.",
+        "guest": "Casey Winters",
+        "context": "Optimizing at scale"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Conviction works when you can't wait for data or when learning is cheap. Testing works when you have traffic and wrong answers are expensive. Small scale or low stakes = conviction. Large scale or high stakes = test.",
+        "keyFactor": "Scale and cost of being wrong"
+      }
+    },
+    {
+      "id": "vertical-horizontal-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Expansion Strategy",
+      "insight1": {
+        "quote": "Go deep in a niche. Own one vertical completely before expanding. This creates defensibility and clear positioning.",
+        "guest": "April Dunford",
+        "context": "Building strong positioning"
+      },
+      "insight2": {
+        "quote": "Think big and horizontal. Build platforms that work across industries. Horizontal plays create larger markets and more opportunities.",
+        "guest": "Shreyas Doshi",
+        "context": "Massive market opportunities"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Vertical-first works for startups proving value and building defensible position. Horizontal works when you have resources and product is truly cross-industry. Start vertical to win, go horizontal to scale. Beachhead then expand.",
+        "keyFactor": "Resources and stage"
+      }
+    },
+    {
+      "id": "free-paid-1",
+      "category": "Growth & Scale",
+      "categoryId": "growth",
+      "categoryColor": "#4ECDC4",
+      "topic": "Pricing Model",
+      "insight1": {
+        "quote": "Free models create viral growth and remove friction. Get to scale fast, then monetize. Network effects require critical mass.",
+        "guest": "Brian Balfour",
+        "context": "Network effect businesses"
+      },
+      "insight2": {
+        "quote": "Charge from day one. Free attracts wrong customers and prevents honest feedback. Willingness to pay validates you're solving real problems.",
+        "guest": "Andrew Wilkinson",
+        "context": "Validating market demand"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Free works when network effects or virality create value at scale. Paid works for direct value products without network effects. Does value increase with users? Yes = free to start. No = charge immediately.",
+        "keyFactor": "Network effects presence"
+      }
+    },
+    {
+      "id": "ego-confidence-1",
+      "category": "Leadership",
+      "categoryId": "leadership",
+      "categoryColor": "#95E1D3",
+      "topic": "Leadership Mindset",
+      "insight1": {
+        "quote": "Sublimate your ego. Prioritize the best outcome over being right. Practice curiosity\u2014you learn more when you're open to being wrong.",
+        "guest": "Ami Vora",
+        "context": "Collaborative leadership"
+      },
+      "insight2": {
+        "quote": "Project confidence. Be thoroughly prepared to answer any question. Executives need to trust your judgment and decision-making.",
+        "guest": "Casey Winters",
+        "context": "Leading upward and outward"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Ami's ego-less approach works inside teams for collaboration and learning. Casey's confidence works when representing decisions externally. Internal = curiosity and openness. External = confidence and conviction. Know your audience.",
+        "keyFactor": "Internal vs. external communication"
+      }
+    },
+    {
+      "id": "feature-depth-breadth-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Feature Strategy",
+      "insight1": {
+        "quote": "Do one thing exceptionally well. Depth creates defensibility. Most products fail by being mediocre at many things.",
+        "guest": "April Dunford",
+        "context": "Clear differentiation"
+      },
+      "insight2": {
+        "quote": "Build feature breadth to become the system of record. When you're the platform, customers can't leave easily.",
+        "guest": "Shreyas Doshi",
+        "context": "Platform and ecosystem plays"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Depth-first wins when entering markets\u2014be 10x better at one thing. Breadth works after winning on depth to create switching costs. Lead with depth, expand to breadth. One wedge, then platform.",
+        "keyFactor": "Market position: entering vs. defending"
+      }
+    },
+    {
+      "id": "user-testing-1",
+      "category": "Decision Making",
+      "categoryId": "decision-making",
+      "categoryColor": "#AA96DA",
+      "topic": "Validation Method",
+      "insight1": {
+        "quote": "Watch what users do, not what they say. Usability testing reveals friction and confusion that surveys miss.",
+        "guest": "Adam Fishman",
+        "context": "Optimizing user experience"
+      },
+      "insight2": {
+        "quote": "Deep interviews reveal struggling moments and causation. Understanding context and job-to-be-done drives better solutions than observing behavior.",
+        "guest": "Bob Moesta",
+        "context": "Understanding motivations"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Testing shows usability issues and where users struggle in execution. Interviews reveal why they hired the product and what progress they seek. Test for HOW, interview for WHY. Use both: interviews for strategy, testing for execution.",
+        "keyFactor": "Question type: why vs. how"
+      }
+    },
+    {
+      "id": "documentation-conversation-1",
+      "category": "Culture",
+      "categoryId": "culture",
+      "categoryColor": "#6C5CE7",
+      "topic": "Knowledge Transfer",
+      "insight1": {
+        "quote": "Write things down. Documentation scales knowledge and makes implicit thoughts explicit, improving decision quality.",
+        "guest": "Annie Duke",
+        "context": "Scalable decision-making"
+      },
+      "insight2": {
+        "quote": "Have conversations. Rich discussion builds understanding and alignment that documents can't capture. Talk to learn.",
+        "guest": "Ami Vora",
+        "context": "Building shared understanding"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Documentation works for information that needs to persist and scale. Conversation works for building alignment and exploring complexity. Write to preserve, talk to explore. Do both: discuss to align, document to scale.",
+        "keyFactor": "Goal: preservation vs. exploration"
+      }
+    },
+    {
+      "id": "network-timing-1",
+      "category": "Growth & Scale",
+      "categoryId": "growth",
+      "categoryColor": "#4ECDC4",
+      "topic": "Network Effects Timing",
+      "insight1": {
+        "quote": "Network effects take time. Be patient and subsidize growth early to reach critical mass where value compounds.",
+        "guest": "Brian Balfour",
+        "context": "Marketplace and platforms"
+      },
+      "insight2": {
+        "quote": "Prove unit economics first. Growing a broken business just loses money faster. Get retention working before scaling.",
+        "guest": "Elena Verna",
+        "context": "Sustainable growth"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Network effects justify early subsidies if retention proves value unlocks at scale. But if retention is broken, scale won't fix it. Test: Does retention improve with cohort size? Yes = subsidize growth. No = fix retention first.",
+        "keyFactor": "Cohort retention trend"
+      }
+    },
+    {
+      "id": "first-principles-1",
+      "category": "Decision Making",
+      "categoryId": "decision-making",
+      "categoryColor": "#AA96DA",
+      "topic": "Thinking Approach",
+      "insight1": {
+        "quote": "Think from first principles. Question assumptions and rebuild understanding from foundational truths. This reveals innovative solutions.",
+        "guest": "Shreyas Doshi",
+        "context": "Solving novel problems"
+      },
+      "insight2": {
+        "quote": "Learn from those who've done it. Join mid-stage companies with strong operators. Don't reinvent\u2014learn proven playbooks.",
+        "guest": "Gokul Rajaram",
+        "context": "Executing known problems"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "First principles work for novel problems where no playbook exists. Learning from others works for known problems with proven solutions. New problem = first principles. Solved problem = learn from winners. Don't reinvent solved problems.",
+        "keyFactor": "Problem novelty"
+      }
+    },
+    {
+      "id": "energy-judgment-1",
+      "category": "Leadership",
+      "categoryId": "leadership",
+      "categoryColor": "#95E1D3",
+      "topic": "Team Selection",
+      "insight1": {
+        "quote": "High energy and low ego create magic. When people bring passion and leave their egos behind, small teams achieve extraordinary things.",
+        "guest": "Shreyas Doshi",
+        "context": "High-performing small teams"
+      },
+      "insight2": {
+        "quote": "Sound judgment and experience matter most. At scale, you need people who've seen the movie and know how to avoid pitfalls.",
+        "guest": "Gokul Rajaram",
+        "context": "Scaling organizations"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Energy works for startups solving novel problems where motivation and adaptability matter most. Judgment works for scaling companies executing known playbooks. Pre-PMF = energy. Post-PMF scaling = judgment. Different stages need different traits.",
+        "keyFactor": "Company stage"
+      }
+    },
+    {
+      "id": "brand-performance-2",
+      "category": "Growth & Scale",
+      "categoryId": "growth",
+      "categoryColor": "#4ECDC4",
+      "topic": "Marketing Mix",
+      "insight1": {
+        "quote": "Brand creates compounding value. Invest in education, content, and awareness that builds over time and creates pricing power.",
+        "guest": "Brian Chesky",
+        "context": "Building lasting advantages"
+      },
+      "insight2": {
+        "quote": "Optimize performance channels ruthlessly. Measure everything, test constantly, and scale what works. Efficiency drives growth.",
+        "guest": "Casey Winters",
+        "context": "Efficient scaling"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Performance proves efficient unit economics and funds growth. Brand builds moats and pricing power. Start with performance to prove the model, layer in brand to build defensibility. Both matter\u2014sequence matters too.",
+        "keyFactor": "Stage: proving model vs. building moats"
+      }
+    },
+    {
+      "id": "context-progress-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Problem Framing",
+      "insight1": {
+        "quote": "Context and struggling moments create demand. Understanding the full situation reveals what customers really need.",
+        "guest": "Bob Moesta",
+        "context": "Jobs-to-be-done framework"
+      },
+      "insight2": {
+        "quote": "Focus on the outcome and progress customers want. What job are they hiring your product to do? This clarity drives focus.",
+        "guest": "Bob Moesta",
+        "context": "Outcome-driven development"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "These are actually complementary, not contradictory. Context reveals WHEN demand occurs. Progress defines WHAT success looks like. Use context to know when to show up, progress to know what to deliver. Both insights from same guest, different lenses.",
+        "keyFactor": "Complementary: timing vs. outcome"
+      }
+    },
+    {
+      "id": "complexity-simplicity-1",
+      "category": "Product Strategy",
+      "categoryId": "product-strategy",
+      "categoryColor": "#FF6B35",
+      "topic": "Product Sophistication",
+      "insight1": {
+        "quote": "Embrace necessary complexity when it unlocks power. Professional tools need depth even if it means harder onboarding.",
+        "guest": "Stewart Butterfield",
+        "context": "Power user tools"
+      },
+      "insight2": {
+        "quote": "Simplicity wins. Most products fail by being too complex. Remove features until you can't anymore.",
+        "guest": "Adam Fishman",
+        "context": "Mass market products"
+      },
+      "resolution": {
+        "title": "When is each true?",
+        "explanation": "Complexity works for professional tools where power users need depth and will invest in learning. Simplicity works for mass-market products competing on ease of use. SMB/prosumer = simple. Enterprise/power users = sophisticated.",
+        "keyFactor": "Target user sophistication"
+      }
+    }
+  ]
+}

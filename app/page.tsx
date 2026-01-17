@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import data from './categorized-data.json';
 import guestSummaries from './guest-summaries.json';
 
@@ -30,18 +31,26 @@ export default function WisdomWall() {
       {/* Header */}
       <div className="sticky top-0 bg-white/95 backdrop-blur-sm border-b-2 border-[#FF6B35] z-30 shadow-sm">
         <div className="max-w-7xl mx-auto px-8 py-6">
-          <div className="flex items-center gap-4 mb-4">
-            {/* Lenny's Profile Picture */}
-            <img
-              src="https://media.licdn.com/dms/image/v2/D5603AQEtN0NPUcDLrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1668720550515?e=2147483647&v=beta&t=oC9mjouEijfAiMcf7JQJfGTMKlXJXzgQkUHOHa5hKFE"
-              alt="Lenny Rachitsky"
-              className="w-12 h-12 rounded-lg"
-            />
-            <div>
-              <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Lenny's Podcast - Wisdom Wall
-              </h1>
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-4">
+              {/* Lenny's Profile Picture */}
+              <img
+                src="https://media.licdn.com/dms/image/v2/D5603AQEtN0NPUcDLrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1668720550515?e=2147483647&v=beta&t=oC9mjouEijfAiMcf7JQJfGTMKlXJXzgQkUHOHa5hKFE"
+                alt="Lenny Rachitsky"
+                className="w-12 h-12 rounded-lg"
+              />
+              <div>
+                <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+                  Lenny's Podcast - Wisdom Wall
+                </h1>
+              </div>
             </div>
+            <Link
+              href="/two-truths"
+              className="px-4 py-2 bg-[#FF6B35] text-white rounded-lg font-semibold hover:bg-[#E55A2B] transition-all shadow-sm hover:shadow-md"
+            >
+              Two Truths →
+            </Link>
           </div>
         </div>
       </div>
