@@ -49,7 +49,7 @@ export default function WisdomWall() {
               href="/two-truths"
               className="px-4 py-2 bg-[#FF6B35] text-white rounded-lg font-semibold hover:bg-[#E55A2B] transition-all shadow-sm hover:shadow-md"
             >
-              Two Truths →
+              Two Truths
             </Link>
           </div>
         </div>
