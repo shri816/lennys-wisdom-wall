@@ -75,12 +75,9 @@ export default function TwoTruths() {
               onClick={() => { setSelectedCategory(cat.id); setCurrentIndex(0); setShowResolution(false); }}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                 selectedCategory === cat.id
-                  ? 'text-white'
+                  ? 'bg-[#FF6B35] text-white'
                   : 'bg-white text-gray-700 hover:bg-gray-100'
               }`}
-              style={{
-                backgroundColor: selectedCategory === cat.id ? cat.color : undefined
-              }}
             >
               {cat.name}
             </button>
@@ -91,7 +88,7 @@ export default function TwoTruths() {
         <div className="text-center mb-8">
           <div
             className="inline-block px-4 py-2 rounded-full text-sm font-bold mb-3"
-            style={{ backgroundColor: current.categoryColor + '20', color: current.categoryColor }}
+            style={{ backgroundColor: '#FF6B3520', color: '#FF6B35' }}
           >
             {current.category}
           </div>
@@ -108,13 +105,13 @@ export default function TwoTruths() {
           {/* Card 1 */}
           <div
             className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border-l-4 hover:shadow-xl transition-shadow"
-            style={{ borderColor: current.categoryColor }}
+            style={{ borderColor: '#FF6B35' }}
           >
             <div className="flex items-start gap-3 mb-4">
               <div className="flex-1">
                 <h3
                   className="font-bold text-lg md:text-xl mb-2"
-                  style={{ color: current.categoryColor }}
+                  style={{ color: '#FF6B35' }}
                 >
                   {current.insight1.guest}
                 </h3>
@@ -130,7 +127,7 @@ export default function TwoTruths() {
           <div className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 items-center justify-center">
             <div
               className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg"
-              style={{ backgroundColor: current.categoryColor }}
+              style={{ backgroundColor: '#FF6B35' }}
             >
               VS
             </div>
@@ -139,13 +136,13 @@ export default function TwoTruths() {
           {/* Card 2 */}
           <div
             className="bg-white rounded-2xl p-6 md:p-8 shadow-lg border-l-4 hover:shadow-xl transition-shadow"
-            style={{ borderColor: current.categoryColor }}
+            style={{ borderColor: '#FF6B35' }}
           >
             <div className="flex items-start gap-3 mb-4">
               <div className="flex-1">
                 <h3
                   className="font-bold text-lg md:text-xl mb-2"
-                  style={{ color: current.categoryColor }}
+                  style={{ color: '#FF6B35' }}
                 >
                   {current.insight2.guest}
                 </h3>
@@ -187,7 +184,7 @@ export default function TwoTruths() {
           {showResolution && (
             <div
               className="mt-4 p-6 md:p-8 bg-white rounded-xl border-2 shadow-sm animate-fadeIn"
-              style={{ borderColor: current.categoryColor }}
+              style={{ borderColor: '#FF6B35' }}
             >
               <div className="prose prose-gray max-w-none">
                 <p className="text-gray-800 text-base md:text-lg leading-relaxed mb-4">
@@ -195,7 +192,7 @@ export default function TwoTruths() {
                 </p>
                 <div
                   className="px-4 py-3 rounded-lg text-sm font-medium"
-                  style={{ backgroundColor: current.categoryColor + '10', color: current.categoryColor }}
+                  style={{ backgroundColor: '#FF6B3510', color: '#FF6B35' }}
                 >
                   <strong>Key Factor:</strong> {current.resolution.keyFactor}
                 </div>
