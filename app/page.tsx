@@ -117,7 +117,7 @@ export default function WisdomWall() {
                 <>
                   <div
                     className="sticky top-0 bg-white border-b-4 px-8 py-6 flex items-start justify-between"
-                    style={{ borderColor: category?.color }}
+                    style={{ borderColor: '#FF6B35' }}
                   >
                     <div className="flex-1 pr-4">
                       <div className="flex items-center gap-3 mb-2">
@@ -126,7 +126,7 @@ export default function WisdomWall() {
                           <h2 className="text-3xl font-bold text-gray-900">
                             {selectedConcept.name}
                           </h2>
-                          <p className="text-sm" style={{ color: category?.color }}>
+                          <p className="text-sm" style={{ color: '#FF6B35' }}>
                             {category?.name}
                           </p>
                         </div>
@@ -145,18 +145,18 @@ export default function WisdomWall() {
                     <div>
                       <h3
                         className="font-bold text-sm uppercase tracking-wide mb-4"
-                        style={{ color: category?.color }}
+                        style={{ color: '#FF6B35' }}
                       >
-                        💡 Key Insight
+                        💡 KEY INSIGHT
                       </h3>
                       <div
                         className="bg-gray-50 border-l-4 p-6 rounded-r-xl"
-                        style={{ borderColor: category?.color }}
+                        style={{ borderColor: '#FF6B35' }}
                       >
                         <p className="text-gray-800 text-lg leading-relaxed mb-4">
                           "{selectedConcept.quote}"
                         </p>
-                        <p className="font-semibold text-sm" style={{ color: category?.color }}>
+                        <p className="font-semibold text-sm" style={{ color: '#FF6B35' }}>
                           — {selectedConcept.guestQuoted}
                         </p>
                       </div>
@@ -166,9 +166,9 @@ export default function WisdomWall() {
                     <div>
                       <h3
                         className="font-bold text-sm uppercase tracking-wide mb-4"
-                        style={{ color: category?.color }}
+                        style={{ color: '#FF6B35' }}
                       >
-                        📝 Full Episode Summary
+                        📝 FULL EPISODE SUMMARY
                       </h3>
                       <button
                         onClick={() => setShowGuestSummary(!showGuestSummary)}
@@ -203,18 +203,15 @@ export default function WisdomWall() {
                     <div>
                       <h3
                         className="font-bold text-sm uppercase tracking-wide mb-4"
-                        style={{ color: category?.color }}
+                        style={{ color: '#FF6B35' }}
                       >
-                        🎙️ Featured Guests
+                        🎙️ FEATURED GUESTS
                       </h3>
                       <div className="flex flex-wrap gap-2">
                         {selectedConcept.guests.map((guest: string) => (
                           <span
                             key={guest}
-                            className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:text-white transition-colors cursor-default"
-                            style={{
-                              ['&:hover' as any]: { backgroundColor: category?.color }
-                            }}
+                            className="px-4 py-2 bg-gray-100 text-gray-700 hover:bg-[#FF6B35] hover:text-white rounded-full text-sm font-medium transition-colors cursor-default"
                           >
                             {guest}
                           </span>
@@ -226,9 +223,9 @@ export default function WisdomWall() {
                     <div>
                       <h3
                         className="font-bold text-sm uppercase tracking-wide mb-4"
-                        style={{ color: category?.color }}
+                        style={{ color: '#FF6B35' }}
                       >
-                        🔗 Explore Related
+                        🔗 EXPLORE RELATED
                       </h3>
                       <div className="grid grid-cols-2 gap-3">
                         {data.concepts
@@ -238,13 +235,7 @@ export default function WisdomWall() {
                             <button
                               key={concept.id}
                               onClick={() => setSelectedConcept(concept)}
-                              className="text-left px-4 py-3 bg-gray-50 hover:bg-gray-100 border-2 border-gray-200 rounded-lg text-sm font-medium text-gray-700 transition-all"
-                              style={{
-                                ['&:hover' as any]: {
-                                  borderColor: category?.color,
-                                  color: category?.color
-                                }
-                              }}
+                              className="text-left px-4 py-3 bg-gray-50 hover:bg-gray-100 border-2 border-gray-200 hover:border-[#FF6B35] rounded-lg text-sm font-medium text-gray-700 hover:text-[#FF6B35] transition-all"
                             >
                               {concept.name}
                             </button>
