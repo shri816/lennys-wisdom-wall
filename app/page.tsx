@@ -64,7 +64,7 @@ export default function WisdomWall() {
               <button
                 key={concept.id}
                 onClick={() => setSelectedConcept(concept)}
-                className="bg-white hover:shadow-xl border-2 border-gray-200 hover:border-gray-400 rounded-xl p-6 text-left transition-all duration-200 group"
+                className="bg-white hover:shadow-xl border-2 border-gray-200 hover:border-gray-400 rounded-xl p-6 text-left transition-all duration-200 group relative cursor-pointer hover:-translate-y-1"
               >
                 <div className="flex items-start gap-3 mb-3">
                   <span className="text-2xl">{category?.icon}</span>
@@ -76,6 +76,14 @@ export default function WisdomWall() {
                       {category?.name}
                     </p>
                   </div>
+                  <svg
+                    className="w-5 h-5 text-gray-400 group-hover:text-[#FF6B35] transition-colors flex-shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
                 </div>
                 <p className="text-gray-600 text-sm italic line-clamp-2">
                   "{concept.quote}"
@@ -83,6 +91,9 @@ export default function WisdomWall() {
                 <p className="text-gray-500 text-xs mt-2">
                   {concept.guests.length} guest{concept.guests.length > 1 ? 's' : ''}
                 </p>
+                <div className="absolute bottom-4 right-4 text-xs text-gray-400 group-hover:text-[#FF6B35] transition-colors opacity-0 group-hover:opacity-100">
+                  Click to explore →
+                </div>
               </button>
             );
           })}
