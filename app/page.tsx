@@ -168,9 +168,6 @@ export default function WisdomWall() {
                             <p className="font-semibold text-gray-900 group-hover:text-[#FF6B35] transition-colors">
                               View key insights from conversation with {selectedConcept.guestQuoted}
                             </p>
-                            <p className="text-sm text-gray-500 mt-1">
-                              Click to view Steve Jobs-style analysis of the full episode
-                            </p>
                           </div>
                           <svg
                             className={`w-5 h-5 text-gray-400 transition-transform ${showGuestSummary ? 'rotate-180' : ''}`}
