@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: "Explore key insights from 286 episodes of Lenny's Podcast. An interactive knowledge base featuring wisdom from the world's best product leaders including Shreyas Doshi, Elena Verna, Casey Winters, and more.",
   openGraph: {
     title: "Lenny's Podcast - Wisdom Wall",
-    description: "Explore 58 key product concepts and 50 curated contradictions from Lenny's podcast guests. Learn nuanced thinking from the world's best product leaders.",
+    description: "Explore key product concepts and curated contradictions from Lenny's podcast guests. Learn nuanced thinking from the world's best product leaders.",
     url: "https://lennys-wisdom-wall.vercel.app",
     siteName: "Lenny's Wisdom Wall",
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Lenny's Podcast - Wisdom Wall",
-    description: "Explore 58 key product concepts and 50 curated contradictions from Lenny's podcast guests.",
+    description: "Explore key product concepts and curated contradictions from Lenny's podcast guests.",
     images: ["/og-image.png"],
   },
 };

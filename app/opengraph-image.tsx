@@ -76,7 +76,7 @@ export default async function Image() {
               lineHeight: 1.4,
             }}
           >
-            Explore 58 key concepts and 50 curated contradictions from Lenny's
+            Explore key product concepts and curated contradictions from Lenny's
             podcast guests
           </div>
 
@@ -99,7 +99,7 @@ export default async function Image() {
               }}
             >
               <div style={{ fontSize: 28, fontWeight: '600', color: '#FF6B35' }}>
-                📚 58 Concepts
+                📚 Concepts
               </div>
             </div>
             <div
@@ -113,7 +113,7 @@ export default async function Image() {
               }}
             >
               <div style={{ fontSize: 28, fontWeight: '600', color: '#FF6B35' }}>
-                🎯 50 Contradictions
+                🎯 Contradictions
               </div>
             </div>
           </div>
